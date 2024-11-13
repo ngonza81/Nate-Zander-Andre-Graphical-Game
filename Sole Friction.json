@@ -150,6 +150,162 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/Pixel Art/5e5fb8fc3ff76222de103f5f0f371de26cbdb9e5682d98b325808f830f67c849_tilemap_packed7.png",
           "name": "tilemap_packed7.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/1b784321d9d5b5f0f9459f55cda7e071c45236560f935ec9adefaa6fdc9aeee1_Generic Character 1_Down_1.png",
+          "name": "Generic Character 1_Down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/2e87a8abb04bdaa75a3565ef7c620a00792efa7aa03bd705f3006c9934584fef_Generic Character 1_Down_2.png",
+          "name": "Generic Character 1_Down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/cc735e07b012b7a53b53b17873e5e842dcf629ee86c67dfcc1c7acebb4bfaae8_Generic Character 1_Down_3.png",
+          "name": "Generic Character 1_Down_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/8e9306fa1a51ec3340f41cc0fdf2338e5b864c5f03629610c82707d236ce5c84_Generic Character 1_Left_1.png",
+          "name": "Generic Character 1_Left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/6cea262c8e6713960b9b6c66c9e66bddde1339f60f83428c9354fb0b1ede6766_Generic Character 1_Left_2.png",
+          "name": "Generic Character 1_Left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/17129aab1cf68067ce56826acc201a90caa64ecb5b082c519069ad64e4b8f1af_Generic Character 1_Left_3.png",
+          "name": "Generic Character 1_Left_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/a7badde951a3f312e7a8ca7f570884f694c4a3e22142c911e6d470160d6fba1a_Generic Character 1_Right_1.png",
+          "name": "Generic Character 1_Right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/a0ce9c6e1a169ac6ddd0f7573c54130c6c39051e60d42a3eef877675149b760a_Generic Character 1_Right_2.png",
+          "name": "Generic Character 1_Right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/282d2c7ecbf02ae97a2b6b50a943a7c7170fa65dfd806c5e741fbf27880ccd8d_Generic Character 1_Right_3.png",
+          "name": "Generic Character 1_Right_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/82f7d4dc0e999fe23bf2baf9ed29d25f212815ce5c805140756be207631792c5_Generic Character 1_Up_1.png",
+          "name": "Generic Character 1_Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/2d3b5c901930254ef9907e8ae5a1a654ef2b38ab316cf04af8371a3c88ac5207_Generic Character 1_Up_2.png",
+          "name": "Generic Character 1_Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 1_Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/7f91892486c75e2f22ab565e3a2052bd5a751d3900b7c59d005ed0f10c3569af_Generic Character 1_Up_3.png",
+          "name": "Generic Character 1_Up_3.png"
+        }
       }
     ],
     "resourceFolders": []
