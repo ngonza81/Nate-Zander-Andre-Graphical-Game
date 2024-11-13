@@ -88,7 +88,7 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 10000,
+          "acceleration": 1000,
           "allowDiagonals": false,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -110,11 +110,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Generic Character 1_Down_1.png",
+                  "image": "Down",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -151,6 +152,42 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Generic Character 1_Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Generic Character 1_Down_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -230,11 +267,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Generic Character 1_Left_1.png",
+                  "image": "Left",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -271,6 +309,42 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Generic Character 1_Left_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Generic Character 1_Left_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -350,11 +424,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Generic Character 1_Right_1.png",
+                  "image": "Right",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -391,6 +466,42 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Generic Character 1_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Generic Character 1_Right_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -470,11 +581,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Generic Character 1_Up_1.png",
+                  "image": "Up",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -511,6 +623,42 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Generic Character 1_Up_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Generic Character 1_Up_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
