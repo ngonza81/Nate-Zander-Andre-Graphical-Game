@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.737081631799403,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,7 +36,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "Credits",
-      "name": "placeholder_text",
+      "name": "credit_text",
       "persistentUuid": "6e03b072-b23d-4458-9dc4-6b3e2d381593",
       "width": 0,
       "x": 512,
@@ -52,7 +52,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "TitleSceenBG",
-      "name": "placeholder_text2",
+      "name": "placeholder_text",
       "persistentUuid": "f2e58106-779e-43a0-b9ee-a8deed225e7a",
       "width": 0,
       "x": 470,
@@ -64,15 +64,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
       "keepRatio": true,
       "layer": "TitleAndPlayButton",
-      "name": "placeholder_text3",
+      "name": "Title",
       "persistentUuid": "cbec65fe-198c-4091-a165-aeb732757ac9",
-      "width": 0,
-      "x": 530,
-      "y": 479,
+      "width": 378,
+      "x": 453,
+      "y": 89,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,6 +112,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 74,
+      "keepRatio": true,
+      "layer": "TitleAndPlayButton",
+      "name": "PurplePlayButton",
+      "persistentUuid": "a3b13d9d-465d-41bf-bf78-d1e5071400a6",
+      "width": 287,
+      "x": 485,
+      "y": 453,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -118,7 +136,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "placeholder_text",
+      "name": "credit_text",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -165,7 +183,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "placeholder_text2",
+      "name": "placeholder_text",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -207,17 +225,17 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "placeholder_text3",
+      "name": "Title",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "play button appears",
-      "font": "",
+      "string": "Title Title Title",
+      "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 50,
       "color": {
         "b": 255,
         "g": 255,
@@ -237,11 +255,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "play button appears",
-        "font": "",
+        "text": "Title Title Title",
+        "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 50,
         "color": "255;255;255"
       }
     },
@@ -261,22 +279,109 @@
       ],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "3699f3a9dbcacb430dfb90834c239c60a0324b631635c6658396cd524c7adb0a",
+      "name": "PurplePlayButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Purple Button With Stone Frame_Hovered.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Purple Button With Stone Frame_Idle.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Play",
+          "font": "Roboto-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Play",
+            "font": "Roboto-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Purple Button With Stone Frame_Pressed.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "objectName": "credit_text"
+      },
+      {
         "objectName": "placeholder_text"
       },
       {
-        "objectName": "placeholder_text2"
-      },
-      {
-        "objectName": "placeholder_text3"
+        "objectName": "Title"
       },
       {
         "objectName": "Dim_Stars"
+      },
+      {
+        "objectName": "PurplePlayButton"
       }
     ]
   },
@@ -437,13 +542,43 @@
             "",
             "\"TitleAndPlayButton\""
           ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"TitleSceenBG\""
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "PurplePlayButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Hub?\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -504,7 +639,7 @@
       "isLocked": false,
       "name": "Credits",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -570,7 +705,7 @@
       "isLocked": false,
       "name": "TitleAndPlayButton",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -595,6 +730,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
     },
     {
       "name": "Opacity",
