@@ -52,10 +52,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Player",
-      "persistentUuid": "949d791f-0ca4-4051-ba7a-64dce3993c26",
+      "persistentUuid": "e6e2eff7-0571-4be3-a7c7-d2e76d478c8b",
       "width": 0,
       "x": 635,
-      "y": 380,
+      "y": 383,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -115,7 +115,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Down",
+                  "image": "Generic Character 1_Down_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -272,7 +272,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left",
+                  "image": "Generic Character 1_Left_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -429,7 +429,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right",
+                  "image": "Generic Character 1_Right_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -586,7 +586,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up",
+                  "image": "Generic Character 1_Up_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -778,7 +778,18 @@
           },
           "parameters": [
             "",
-            "2",
+            "2.5",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.5",
             "",
             "0"
           ]
@@ -1059,7 +1070,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Layer",
+      "name": "Layer 1",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
