@@ -148,7 +148,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Credits fade in then back out\n\nGame by: \nNate\nAndre\nZander",
+      "string": "Credits fade in then back out\n\nGame by: \nNate\nAndre\nZander\n\nSome aspects inspired by GDevelop's Top Down RPG",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -171,7 +171,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Credits fade in then back out\n\nGame by: \nNate\nAndre\nZander",
+        "text": "Credits fade in then back out\n\nGame by: \nNate\nAndre\nZander\n\nSome aspects inspired by GDevelop's Top Down RPG",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
