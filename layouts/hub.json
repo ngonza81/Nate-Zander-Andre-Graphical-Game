@@ -66,7 +66,7 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "NPC1 Dia",
+      "layer": "Dialogue",
       "name": "NPC1_Dia",
       "persistentUuid": "12c9f8fb-7377-4b72-9dfd-a8041bd538b8",
       "width": 0,
@@ -98,13 +98,29 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "NPC1 Dia",
+      "layer": "Dialogue",
       "name": "NPC1_Dia2",
       "persistentUuid": "259a93ff-7e8d-42d1-97b4-832c6fc5e55a",
       "width": 0,
       "x": 638,
       "y": 284,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "F int",
+      "name": "f_int",
+      "persistentUuid": "6580f708-a1de-44a9-b653-dee27cdb86b3",
+      "width": 0,
+      "x": 639,
+      "y": 285,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -813,7 +829,12 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "npc1_dia_timer",
+          "name": "npc1_dialogue",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Unnamed",
           "type": "number",
           "value": 0
         }
@@ -1410,6 +1431,48 @@
         "characterSize": 10,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "f_int",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press f to interact and continue",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 10,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press f to interact and continue",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 10,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1429,6 +1492,9 @@
       },
       {
         "objectName": "NPC1_Dia2"
+      },
+      {
+        "objectName": "f_int"
       }
     ]
   },
@@ -1774,6 +1840,61 @@
       "conditions": [
         {
           "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Npc1",
+            "20",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"F int\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Npc1",
+            "20",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"F int\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::And"
           },
           "parameters": [],
@@ -1791,7 +1912,7 @@
             },
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
@@ -1808,7 +1929,16 @@
           },
           "parameters": [
             "",
-            "\"NPC1 Dia\""
+            "\"Dialogue\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NPC1_Dia",
+            ""
           ]
         },
         {
@@ -1821,21 +1951,104 @@
         },
         {
           "type": {
-            "value": "ActivateBehavior"
+            "value": "TopDownMovementBehavior::IgnoreDefaultControls"
           },
           "parameters": [
             "Player",
             "TopDownMovement",
-            "no"
+            "yes"
           ]
         },
         {
           "type": {
-            "value": "ResetObjectTimer"
+            "value": "ResetTimer"
           },
           "parameters": [
-            "Npc1",
-            "\"npc1_dia_timer\""
+            "",
+            "\"timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "f_int",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"timer\"",
+            "<",
+            ".5"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NPC1_Dia"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NPC1_Dia2",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "no"
+              ]
+            }
           ]
         }
       ]
@@ -1863,119 +2076,7 @@
           },
           "parameters": [
             "",
-            "\"NPC1 Dia\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"NPC1 Dia\""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "f"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Npc1",
-                "\"npc1_dia_timer\"",
-                ">=",
-                ".5"
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "NPC1_Dia"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "NPC1_Dia2",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "NPC1_Dia2"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "f"
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"NPC1 Dia\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "Player",
-            "TopDownMovement",
-            "yes"
+            "\"Dialogue\""
           ]
         }
       ]
@@ -2037,7 +2138,40 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "NPC1 Dia",
+      "name": "Dialogue",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "F int",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
