@@ -543,6 +543,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/8da4e5aca8a865dab002f604f798daaff1c2cd9f3f9171f60638b2c20f65852a_Male Character 8_Walking Up_3.png",
           "name": "Male Character 8_Walking Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Menu.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Light/x128/2210cef2302f5bbba5fb30e4b6dde8a68d09c947de644c818dce931c32905cf2_Menu.png",
+          "name": "Menu.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -561,6 +574,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/hub"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
     }
   ],
   "externalEvents": [],

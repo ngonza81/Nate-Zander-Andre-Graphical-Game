@@ -39,8 +39,8 @@
       "name": "credit_text",
       "persistentUuid": "6e03b072-b23d-4458-9dc4-6b3e2d381593",
       "width": 0,
-      "x": 512,
-      "y": 298,
+      "x": 582,
+      "y": 269,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,6 +129,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "TitleAndPlayButton",
+      "name": "Credits_Button",
+      "persistentUuid": "642080e1-00a0-4ae5-a4e1-01229df4011e",
+      "width": 285,
+      "x": 485,
+      "y": 532,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -148,7 +165,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Credits fade in then back out\n\nGame by: \nNate\nAndre\nZander\n\nSome aspects inspired by GDevelop's Top Down RPG",
+      "string": "Game by: \nNate\nAndre\nZander",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -171,7 +188,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Credits fade in then back out\n\nGame by: \nNate\nAndre\nZander\n\nSome aspects inspired by GDevelop's Top Down RPG",
+        "text": "Game by: \nNate\nAndre\nZander",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -363,6 +380,90 @@
           "width": 348
         }
       }
+    },
+    {
+      "assetStoreId": "3699f3a9dbcacb430dfb90834c239c60a0324b631635c6658396cd524c7adb0a",
+      "name": "Credits_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Purple Button With Stone Frame_Hovered.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Purple Button With Stone Frame_Idle.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Credits",
+          "font": "Roboto-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Credits",
+            "font": "Roboto-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Purple Button With Stone Frame_Pressed.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -382,6 +483,9 @@
       },
       {
         "objectName": "PurplePlayButton"
+      },
+      {
+        "objectName": "Credits_Button"
       }
     ]
   },
@@ -399,6 +503,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "HideLayer"
@@ -579,6 +692,31 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Credits_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -639,7 +777,7 @@
       "isLocked": false,
       "name": "Credits",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -672,7 +810,7 @@
       "isLocked": false,
       "name": "TitleSceenBG",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
