@@ -66,22 +66,6 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Dialogue",
-      "name": "NPC1_Dia",
-      "persistentUuid": "12c9f8fb-7377-4b72-9dfd-a8041bd538b8",
-      "width": 0,
-      "x": 639,
-      "y": 283,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
       "layer": "",
       "name": "Player",
       "persistentUuid": "1e5e695b-4407-4a24-a6b5-1ec9952e238e",
@@ -89,22 +73,6 @@
       "x": 637,
       "y": 384,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Dialogue",
-      "name": "NPC1_Dia2",
-      "persistentUuid": "259a93ff-7e8d-42d1-97b4-832c6fc5e55a",
-      "width": 0,
-      "x": 638,
-      "y": 284,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1394,7 +1362,7 @@
       "string": "Hey bud!\nPress f to continue",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 10,
+      "characterSize": 15,
       "color": {
         "b": 0,
         "g": 0,
@@ -1418,7 +1386,7 @@
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 10,
+        "characterSize": 15,
         "color": "0;0;0"
       }
     },
@@ -1436,7 +1404,7 @@
       "string": "I'm busy right now, come back later.",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 10,
+      "characterSize": 15,
       "color": {
         "b": 0,
         "g": 0,
@@ -1460,7 +1428,7 @@
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 10,
+        "characterSize": 15,
         "color": "0;0;0"
       }
     },
@@ -1478,7 +1446,7 @@
       "string": "Press f to interact and continue",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 10,
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -1502,7 +1470,7 @@
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 10,
+        "characterSize": 20,
         "color": "0;0;0"
       }
     },
@@ -1648,28 +1616,6 @@
         },
         {
           "type": {
-            "value": "ZoomCamera"
-          },
-          "parameters": [
-            "",
-            "2.5",
-            "",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ZoomCamera"
-          },
-          "parameters": [
-            "",
-            "2.5",
-            "",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "CentreCamera"
           },
           "parameters": [
@@ -1678,6 +1624,17 @@
             "",
             "",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.5",
+            "",
+            ""
           ]
         }
       ]
@@ -2161,6 +2118,18 @@
         },
         {
           "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NPC1_Dia",
+            "640",
+            "290",
+            "\"Dialogue\""
+          ]
+        },
+        {
+          "type": {
             "value": "ShowLayer"
           },
           "parameters": [
@@ -2288,6 +2257,27 @@
             "=",
             "2"
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NPC1_Dia",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NPC1_Dia2",
+            "640",
+            "290",
+            "\"Dialogue\""
+          ]
         }
       ]
     },
@@ -2353,6 +2343,15 @@
             "npc1_dialogue",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NPC1_Dia2",
+            ""
           ]
         }
       ]
@@ -2552,7 +2551,7 @@
       "isLocked": false,
       "name": "F int",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
