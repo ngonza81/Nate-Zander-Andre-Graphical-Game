@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.9284316855173973,
+    "zoomFactor": 0.8993607583666815,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -299,6 +299,23 @@
       "x": 672,
       "y": 258,
       "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 140,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Building",
+      "persistentUuid": "6b983187-12cc-4ad7-8549-0cd7958d8b25",
+      "width": 138,
+      "x": 447,
+      "y": 177,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2023,7 +2040,7 @@
       "string": "Materials: 0",
       "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
       "textAlignment": "left",
-      "characterSize": 10,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -2047,9 +2064,114 @@
         "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 10,
+        "characterSize": 40,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Building",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -346,
+              "y": 210
+            },
+            {
+              "x": 20,
+              "y": 478
+            },
+            {
+              "x": 398,
+              "y": 216
+            },
+            {
+              "x": 233,
+              "y": 124
+            },
+            {
+              "x": -188,
+              "y": 124
+            }
+          ],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "building.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 212,
+                        "y": 59
+                      },
+                      {
+                        "x": 882,
+                        "y": 59
+                      },
+                      {
+                        "x": 882,
+                        "y": 978
+                      },
+                      {
+                        "x": 212,
+                        "y": 978
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2057,6 +2179,9 @@
     "children": [
       {
         "objectName": "Orange_Building_TIle"
+      },
+      {
+        "objectName": "Building"
       },
       {
         "objectName": "Window_Tile"
@@ -2167,6 +2292,41 @@
           "parameters": [
             "",
             "\"UI\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Hidden Buildings Set Up"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Building"
           ]
         }
       ]
@@ -3062,6 +3222,43 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Building",
+            "RpgUrbanMap16x16",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Building"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Building",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -3090,13 +3287,12 @@
         },
         {
           "type": {
-            "value": "NumberObjectVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "Player",
             "Material_Count",
             ">=",
-            "2"
+            "4"
           ]
         },
         {
@@ -3125,6 +3321,36 @@
           },
           "parameters": [
             "Construction1_Tile",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Material_Count",
+            "-",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Material_Collected",
+            "Text",
+            "=",
+            "\"Material: \"+Material_Count"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Building",
             ""
           ]
         }
