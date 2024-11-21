@@ -977,8 +977,8 @@
           "fixedRotation": false,
           "canSleep": true,
           "shape": "Box",
-          "shapeDimensionA": 5,
-          "shapeDimensionB": 5,
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
           "shapeOffsetX": 0,
           "shapeOffsetY": 0,
           "polygonOrigin": "Center",
@@ -1794,8 +1794,8 @@
           "fixedRotation": false,
           "canSleep": true,
           "shape": "Box",
-          "shapeDimensionA": 30,
-          "shapeDimensionB": 30,
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
           "shapeOffsetX": 0,
           "shapeOffsetY": 0,
           "polygonOrigin": "Center",
@@ -2803,50 +2803,59 @@
             ""
           ]
         }
-      ],
-      "events": [
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Material_Count",
-                    ">=",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "f"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Construct_1",
+                "Player",
+                "Material_Count",
+                ">=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Construction1_Tile",
+                "5",
                 ""
               ]
             }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Construct_1",
+            ""
           ]
         }
       ]
