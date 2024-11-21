@@ -585,6 +585,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Arabic/6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brick.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Resources/1dfe3c6857d14b818d38b23af7efcebd94969059e7744c51991d87afb49d8a73_Brick.png",
+          "name": "Brick.png"
+        }
       }
     ],
     "resourceFolders": []

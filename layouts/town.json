@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 4.2744244040479344,
+    "zoomFactor": 0.8416428125373252,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -139,8 +139,8 @@
       "name": "Street_Tile",
       "persistentUuid": "08b2f64f-3022-455a-a1a5-14ab5de9867c",
       "width": 0,
-      "x": 0,
-      "y": 3,
+      "x": -1,
+      "y": 1,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -215,6 +215,70 @@
           "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[419,419,419],[473,473,473]]}]}"
         }
       ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Brick",
+      "persistentUuid": "1fa91aff-8eeb-41d2-9233-3d18f54e4eb3",
+      "width": 0,
+      "x": 837,
+      "y": 294,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Brick",
+      "persistentUuid": "598c0f19-9567-479e-8649-016599e2ce5c",
+      "width": 0,
+      "x": 838,
+      "y": 276,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Brick",
+      "persistentUuid": "17b7dc40-d919-4b7f-a864-da03175c9423",
+      "width": 0,
+      "x": 859,
+      "y": 295,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Brick",
+      "persistentUuid": "4c9e8854-9138-491c-a008-67e6afd87547",
+      "width": 0,
+      "x": 861,
+      "y": 276,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
       "initialVariables": []
     }
   ],
@@ -1862,6 +1926,66 @@
         "tileSize": 16,
         "tilesWithHitBox": "473,446,419,285,125,126,127,128,209,129,210,130,157,184,211,152,179,153,180,154,181,155,182,156,183,205,206,207,208,124,151,178,445,254,280,279,252,253,307,306,305,278,251,221,248,222,249,223,250,382,383,384,357,356,355,358,385"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6be624227beee6cd64e8bac03b8ac3d69c996aafa2b2fb193ed25ad38b2be2ba",
+      "name": "Brick",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Brick.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1902,6 +2026,9 @@
       },
       {
         "objectName": "Construct_1"
+      },
+      {
+        "objectName": "Brick"
       }
     ]
   },
@@ -2847,6 +2974,35 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Orange_Building_TIle",
+            "Orange_Building_TIle",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "Material_Count",
+            ">",
+            "20"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -2920,6 +3076,92 @@
           "parameters": [
             "Construct_1",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Material Collision"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Brick",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Brick"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Brick",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "c"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "Material_Count",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Brick"
+              ]
+            }
           ]
         }
       ]
