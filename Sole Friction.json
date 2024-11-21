@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -556,6 +556,35 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Light/x128/2210cef2302f5bbba5fb30e4b6dde8a68d09c947de644c818dce931c32905cf2_Menu.png",
           "name": "Menu.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NotoSansArabicUI-Medium.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Arabic/6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -573,11 +602,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hub"
+      "referenceTo": "/layouts/credits"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/credits"
+      "referenceTo": "/layouts/town"
     }
   ],
   "externalEvents": [],
