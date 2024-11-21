@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.432347728232853,
+    "zoomFactor": 4.2744244040479344,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -81,9 +81,9 @@
       "name": "Orange_Building_TIle",
       "persistentUuid": "4ef003af-8cba-471a-9f90-12598356dbc5",
       "width": 0,
-      "x": 650,
-      "y": 201,
-      "zOrder": 12,
+      "x": 649,
+      "y": 200,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -163,7 +163,7 @@
       "width": 43,
       "x": 652,
       "y": 269,
-      "zOrder": 19,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -185,7 +185,7 @@
       "width": 43,
       "x": 652,
       "y": 242,
-      "zOrder": 19,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -207,7 +207,7 @@
       "width": 43,
       "x": 652,
       "y": 213,
-      "zOrder": 19,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -261,7 +261,7 @@
         "rowCount": 18,
         "columnCount": 27,
         "tileSize": 16,
-        "tilesWithHitBox": "473,446,419,285,125,126,127,128,209,129,210,130,157,184,211,152,179,153,180,154,181,155,182,156,183,205,206,207,208,124,151,178,445,254,280,279,252,253,307,306,305,278,251,221,248,222,249,223,250,382,383,384,357,356,355,358,385"
+        "tilesWithHitBox": "473,446,419,285,128,209,129,210,130,157,184,211,152,153,154,155,182,156,205,206,207,208,124,151,178,445,254,280,279,252,253,307,306,305,278,251,221,248,222,249,223,250,382,383,384,357,356,355,358,385"
       }
     },
     {
@@ -2777,6 +2777,18 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Building Collision"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2804,6 +2816,47 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Construction1_Tile",
+            "RpgUrbanMap16x16",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Construction1_Tile",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Contruction Interaction"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2844,6 +2897,17 @@
                 "5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Player",
+                "Physics2",
+                "Construction1_Tile",
+                ""
+              ]
             }
           ]
         }
@@ -2855,35 +2919,6 @@
           },
           "parameters": [
             "Construct_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Construction1_Tile",
-            "RpgUrbanMap16x16",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Player",
-            "Construction1_Tile",
             ""
           ]
         }
