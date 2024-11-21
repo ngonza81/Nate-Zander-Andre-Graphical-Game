@@ -1901,7 +1901,7 @@
         "rowCount": 18,
         "columnCount": 27,
         "tileSize": 16,
-        "tilesWithHitBox": ""
+        "tilesWithHitBox": "248,307,254"
       }
     },
     {
@@ -3096,7 +3096,7 @@
             "Player",
             "Material_Count",
             ">=",
-            "4"
+            "2"
           ]
         },
         {
