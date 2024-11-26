@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.9610368693714734,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -43,15 +43,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
       "keepRatio": true,
       "layer": "",
       "name": "Menu",
       "persistentUuid": "fe5a39bb-23c8-4b18-b5a5-b7e0f5f718f7",
-      "width": 0,
-      "x": 541,
-      "y": 482,
+      "width": 60,
+      "x": 600,
+      "y": 561,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -59,16 +60,51 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
       "keepRatio": true,
       "layer": "",
       "name": "Back",
       "persistentUuid": "9d8b056f-7e28-4579-80b7-e1da16f754d1",
-      "width": 0,
-      "x": 395,
-      "y": 530,
+      "width": 51,
+      "x": 540,
+      "y": 575,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 721,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Dim_Stars",
+      "persistentUuid": "41a3839e-6ac1-4cad-9885-0e3d74859df6",
+      "width": 721,
+      "x": -1,
+      "y": -1,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 729,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Dim_Stars",
+      "persistentUuid": "787148a7-6bbb-4fb1-b774-5ddfba73e019",
+      "width": 729,
+      "x": 562,
+      "y": -6,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -88,7 +124,7 @@
       "behaviors": [],
       "string": "Developed by: \nNathan G.\nAndre F.\nZander M.\n\nAssets by: \nGDevelop\nAndre F\n\nSome code used from: \nGdevelop",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 20,
       "color": {
         "b": 0,
@@ -97,7 +133,7 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
@@ -111,7 +147,7 @@
         "underlined": false,
         "text": "Developed by: \nNathan G.\nAndre F.\nZander M.\n\nAssets by: \nGDevelop\nAndre F\n\nSome code used from: \nGdevelop",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 20,
         "color": "0;0;0"
@@ -188,7 +224,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Back to start",
+      "string": "Back",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -199,7 +235,7 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
@@ -211,13 +247,30 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Back to start",
+        "text": "Back",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 256,
+      "name": "Dim_Stars",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [
+        {
+          "name": "scenetimer",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -231,6 +284,9 @@
       },
       {
         "objectName": "Menu"
+      },
+      {
+        "objectName": "Dim_Stars"
       }
     ]
   },
