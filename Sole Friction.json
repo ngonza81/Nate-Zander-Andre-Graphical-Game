@@ -1035,6 +1035,33 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/8ab56f2c1d8881a7e29b061847a91f2013f2020a1a69a2e2c91101a9ae1de692_Arrow Key_Up.png",
           "name": "Arrow Key_Up.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "house1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "house1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "house2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "house2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "house3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"house3.png\",\"extension\":\".png\"}",
+        "name": "house3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
