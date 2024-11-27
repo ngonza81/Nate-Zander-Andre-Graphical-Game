@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.134371579716145,
+    "zoomFactor": 0.6244537826600279,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -190,15 +190,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
       "keepRatio": true,
       "layer": "UI",
       "name": "Material_Collected",
       "persistentUuid": "9e37620e-4958-4533-acb4-bef09fa64def",
-      "width": 0,
-      "x": 1012,
-      "y": 24,
+      "width": 173,
+      "x": 1067,
+      "y": 17,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -691,7 +692,7 @@
       "persistentUuid": "1346e27e-c627-4a65-8e45-6458625f4e5c",
       "width": 158,
       "x": 855,
-      "y": 149,
+      "y": 152,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -2571,7 +2572,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Materials: 0",
+      "string": "Brick: 0",
       "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2594,7 +2595,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Materials: 0",
+        "text": "Brick: 0",
         "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -7760,7 +7761,7 @@
             "Material_Collected",
             "Text",
             "=",
-            "\"Material: \"+Material_Count"
+            "\"Brick: \"+Material_Count"
           ]
         },
         {
@@ -7857,7 +7858,7 @@
             "Material_Collected",
             "Text",
             "=",
-            "\"Material: \"+Material_Count"
+            "\"Brick: \"+Material_Count"
           ]
         },
         {
@@ -7954,7 +7955,7 @@
             "Material_Collected",
             "Text",
             "=",
-            "\"Material: \"+Material_Count"
+            "\"Brick: \"+Material_Count"
           ]
         },
         {
@@ -8068,7 +8069,7 @@
                 "Material_Collected",
                 "Text",
                 "=",
-                "\"Material: \"+Material_Count"
+                "\"Brick: \"+Material_Count"
               ]
             }
           ]

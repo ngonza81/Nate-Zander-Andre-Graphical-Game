@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.338969317284597,
+    "zoomFactor": 0.7619362677198075,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -130,8 +130,8 @@
       "name": "Brick",
       "persistentUuid": "1fa91aff-8eeb-41d2-9233-3d18f54e4eb3",
       "width": 16,
-      "x": 680,
-      "y": 450,
+      "x": 484,
+      "y": 393,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,8 +147,8 @@
       "name": "Brick",
       "persistentUuid": "598c0f19-9567-479e-8649-016599e2ce5c",
       "width": 16,
-      "x": 700,
-      "y": 392,
+      "x": 322,
+      "y": 535,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -164,8 +164,8 @@
       "name": "Brick",
       "persistentUuid": "17b7dc40-d919-4b7f-a864-da03175c9423",
       "width": 16,
-      "x": 664,
-      "y": 402,
+      "x": 103,
+      "y": 621,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,8 +181,8 @@
       "name": "Brick",
       "persistentUuid": "4c9e8854-9138-491c-a008-67e6afd87547",
       "width": 16,
-      "x": 707,
-      "y": 426,
+      "x": 511,
+      "y": 458,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -190,15 +190,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
       "keepRatio": true,
       "layer": "UI",
       "name": "Material_Collected",
       "persistentUuid": "9e37620e-4958-4533-acb4-bef09fa64def",
-      "width": 0,
-      "x": 1012,
-      "y": 24,
+      "width": 174,
+      "x": 1067,
+      "y": 17,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -331,8 +332,8 @@
       "name": "Brick",
       "persistentUuid": "7ae0ed19-fc69-4ec6-99c6-bb63486e5e2a",
       "width": 16,
-      "x": 749,
-      "y": 439,
+      "x": 325,
+      "y": 406,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -348,8 +349,8 @@
       "name": "Brick",
       "persistentUuid": "07b8682b-f435-4ef6-8404-28fa7af5b70c",
       "width": 16,
-      "x": 739,
-      "y": 407,
+      "x": 289,
+      "y": 405,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -365,8 +366,8 @@
       "name": "Brick",
       "persistentUuid": "ae250ff7-6b10-4a6d-a9b6-3fbe92a9c5fc",
       "width": 16,
-      "x": 786,
-      "y": 425,
+      "x": 532,
+      "y": 482,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -382,8 +383,8 @@
       "name": "Brick",
       "persistentUuid": "2e2a0796-a7ca-4047-a2f8-f201cf2ef1eb",
       "width": 16,
-      "x": 703,
-      "y": 478,
+      "x": 520,
+      "y": 551,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -399,8 +400,8 @@
       "name": "Brick",
       "persistentUuid": "fee50c41-290f-4a94-b9a7-621e5292dd70",
       "width": 16,
-      "x": 832,
-      "y": 421,
+      "x": 348,
+      "y": 566,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -416,8 +417,8 @@
       "name": "Brick",
       "persistentUuid": "5cf37414-f6ec-4cb0-ac5a-2d1caa481f1d",
       "width": 16,
-      "x": 803,
-      "y": 399,
+      "x": 455,
+      "y": 416,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -433,8 +434,8 @@
       "name": "Brick",
       "persistentUuid": "5a8c54d7-0cb1-4d15-bbf5-987d6c7e063a",
       "width": 16,
-      "x": 820,
-      "y": 452,
+      "x": 823,
+      "y": 47,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -450,8 +451,8 @@
       "name": "Brick",
       "persistentUuid": "4351fe6d-7ef3-42fa-b08a-cf72479a825e",
       "width": 16,
-      "x": 778,
-      "y": 461,
+      "x": 500,
+      "y": 516,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -467,8 +468,8 @@
       "name": "Brick",
       "persistentUuid": "1f86db4a-b237-4615-a667-73b5e85dc2a4",
       "width": 16,
-      "x": 744,
-      "y": 469,
+      "x": 409,
+      "y": 498,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -484,8 +485,8 @@
       "name": "Brick",
       "persistentUuid": "7552c231-3683-4870-b5d0-38037a7c27f4",
       "width": 16,
-      "x": 815,
-      "y": 527,
+      "x": 509,
+      "y": 437,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -501,8 +502,8 @@
       "name": "Brick",
       "persistentUuid": "698b3148-0249-42d6-8f45-dbe2d1af373f",
       "width": 16,
-      "x": 814,
-      "y": 490,
+      "x": 344,
+      "y": 430,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,8 +519,8 @@
       "name": "Brick",
       "persistentUuid": "984fd899-c33a-4f72-8435-94a2d058a484",
       "width": 16,
-      "x": 761,
-      "y": 504,
+      "x": 470,
+      "y": 491,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -535,8 +536,8 @@
       "name": "Brick",
       "persistentUuid": "43d8ed35-2138-4bf7-a3d6-d9262dd1ecf2",
       "width": 16,
-      "x": 704,
-      "y": 506,
+      "x": 49,
+      "y": 437,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -552,8 +553,8 @@
       "name": "Brick",
       "persistentUuid": "cc53d0b2-033d-48e3-a0ee-84c492e1850c",
       "width": 16,
-      "x": 672,
-      "y": 539,
+      "x": 389,
+      "y": 636,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -569,8 +570,8 @@
       "name": "Brick",
       "persistentUuid": "92b9a734-a362-4139-b5fc-0ed1ceb6c84f",
       "width": 16,
-      "x": 737,
-      "y": 537,
+      "x": 194,
+      "y": 462,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -586,8 +587,8 @@
       "name": "Brick",
       "persistentUuid": "06b565c9-179d-4583-9728-9f987cef1d67",
       "width": 16,
-      "x": 662,
-      "y": 488,
+      "x": 393,
+      "y": 389,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -603,8 +604,8 @@
       "name": "Construct1",
       "persistentUuid": "6bed5ad0-3ef3-4ac4-a198-0c6b43b6d542",
       "width": 158,
-      "x": 428,
-      "y": 147,
+      "x": 430,
+      "y": 148,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -620,8 +621,8 @@
       "name": "House2",
       "persistentUuid": "7aaacf2b-e1fb-42fb-8e09-2dfe21bbf7d4",
       "width": 118,
-      "x": 621,
-      "y": 186,
+      "x": 614,
+      "y": 190,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -637,8 +638,8 @@
       "name": "House3",
       "persistentUuid": "90e633f8-bbda-4053-9f83-497068ab51f2",
       "width": 116,
-      "x": 691,
-      "y": 191,
+      "x": 851,
+      "y": 564,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -654,8 +655,8 @@
       "name": "House2",
       "persistentUuid": "fdfbd4dc-895e-4afd-98d2-8745c8fa3e29",
       "width": 118,
-      "x": 809,
-      "y": 187,
+      "x": 1011,
+      "y": 558,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -672,8 +673,8 @@
       "name": "House3",
       "persistentUuid": "c20eb7d6-5f6d-45c3-9517-5f4995c623da",
       "width": 116,
-      "x": 744,
-      "y": 191,
+      "x": 904,
+      "y": 564,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -690,8 +691,8 @@
       "name": "House1",
       "persistentUuid": "1346e27e-c627-4a65-8e45-6458625f4e5c",
       "width": 158,
-      "x": 855,
-      "y": 149,
+      "x": 1057,
+      "y": 522,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -762,8 +763,8 @@
       "name": "Construct3",
       "persistentUuid": "c701dfdd-e3b9-4a87-b47f-9394884d94f7",
       "width": 116,
-      "x": 622,
-      "y": 58,
+      "x": 620,
+      "y": 71,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -850,6 +851,402 @@
       "x": 1273,
       "y": 312,
       "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "e8c95acd-2280-42a0-80ca-dcda095cccc1",
+      "width": 50,
+      "x": 39,
+      "y": 462,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 47,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "a98ae538-09ab-4b19-b6d2-add57391b21a",
+      "width": 54,
+      "x": 236,
+      "y": 540,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 43,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "c837270f-232a-4211-899f-bcb3dbd1f0fb",
+      "width": 41,
+      "x": 119,
+      "y": 402,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "0fc22831-19a0-43a6-b572-3d9d568c820d",
+      "width": 53,
+      "x": 148,
+      "y": 482,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "eef49f44-a1ab-48dc-be91-5b9ce5b9d1e8",
+      "width": 51,
+      "x": 82,
+      "y": 543,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "cb9c7a8c-b1d3-489b-9fae-7ceabfc19eac",
+      "width": 51,
+      "x": 228,
+      "y": 407,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "453cf1a5-99e0-4441-b2b1-e917dace4243",
+      "width": 56,
+      "x": 303,
+      "y": 463,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "7ae53b01-9177-4623-b33b-867969f821c5",
+      "width": 58,
+      "x": 183,
+      "y": 617,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "3901ed7c-dac3-49d3-85a4-4b28c2f9a0d9",
+      "width": 56,
+      "x": 333,
+      "y": 586,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "c4c0ce0d-e010-4c17-ba58-a57c0610fcb8",
+      "width": 49,
+      "x": 403,
+      "y": 420,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CampingTent",
+      "persistentUuid": "be98f53e-42f0-485d-bb6f-b57bf873e71a",
+      "width": 61,
+      "x": 419,
+      "y": 519,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House2",
+      "persistentUuid": "d31294ac-d538-4dd9-acda-5f04930236e7",
+      "width": 118,
+      "x": 120,
+      "y": 44,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.0533333333333335,
+      "flippedX": true,
+      "height": 158,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House1",
+      "persistentUuid": "06e91471-c5d9-4803-8371-2d99587c9335",
+      "width": 158,
+      "x": 669,
+      "y": 300,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "flippedX": true,
+      "height": 116,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House3",
+      "persistentUuid": "008dc7d3-7252-42aa-afdb-f84435888597",
+      "width": 116,
+      "x": 912,
+      "y": 192,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House3",
+      "persistentUuid": "b68d6d5b-89f3-4f46-b682-fbd30df90422",
+      "width": 116,
+      "x": 858,
+      "y": 192,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House3",
+      "persistentUuid": "ddea5091-01d6-4b8e-8159-92a7dd783ee2",
+      "width": 116,
+      "x": 208,
+      "y": 196,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "flippedX": true,
+      "height": 116,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House3",
+      "persistentUuid": "e2f4dc8a-fc18-4c18-a791-8aff6fe6ce61",
+      "width": 116,
+      "x": 262,
+      "y": 196,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House2",
+      "persistentUuid": "a9c3781b-9177-45ac-aab7-77cec6f7c269",
+      "width": 118,
+      "x": 349,
+      "y": 44,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.0533333333333335,
+      "flippedX": true,
+      "height": 158,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House1",
+      "persistentUuid": "b774d774-beee-457a-a5e5-e01b587e276c",
+      "width": 158,
+      "x": -4,
+      "y": 148,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House3",
+      "persistentUuid": "01e71e78-1636-41e8-86a8-7694602c08da",
+      "width": 116,
+      "x": 906,
+      "y": 71,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House2",
+      "persistentUuid": "e7a26fe0-f0ab-49c4-bd27-6c3cbc9da434",
+      "width": 118,
+      "x": 732,
+      "y": 558,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.0533333333333335,
+      "flippedX": true,
+      "height": 158,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House1",
+      "persistentUuid": "ccda43f5-eb8b-4426-baca-8607726fd105",
+      "width": 158,
+      "x": 644,
+      "y": 520,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "",
+      "name": "House2",
+      "persistentUuid": "2a7cea3d-0853-42b8-b350-0d45c27b7a52",
+      "width": 118,
+      "x": 1076,
+      "y": 327,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2571,7 +2968,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Materials: 0",
+      "string": "Brick: 0",
       "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2594,7 +2991,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Materials: 0",
+        "text": "Brick: 0",
         "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -5607,6 +6004,114 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "244cf2b88595428c633b896550a76a882270fcdb75c3517eed3a44c40a4b06a4",
+      "name": "CampingTent",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Camping Tent_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 6
+                      },
+                      {
+                        "x": 29,
+                        "y": 6
+                      },
+                      {
+                        "x": 29,
+                        "y": 27
+                      },
+                      {
+                        "x": 3,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Camping Tent_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 6
+                      },
+                      {
+                        "x": 29,
+                        "y": 6
+                      },
+                      {
+                        "x": 29,
+                        "y": 27
+                      },
+                      {
+                        "x": 3,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5694,6 +6199,9 @@
           },
           {
             "objectName": "Collision_Tile"
+          },
+          {
+            "objectName": "CampingTent"
           },
           {
             "objectName": "House1"
@@ -7328,6 +7836,48 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "CampingTent",
+            "RpgUrbanMap16x16",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "CampingTent"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "CampingTent",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -7767,7 +8317,7 @@
             "Material_Collected",
             "Text",
             "=",
-            "\"Material: \"+Material_Count"
+            "\"Brick: \"+Material_Count"
           ]
         },
         {
@@ -7864,7 +8414,7 @@
             "Material_Collected",
             "Text",
             "=",
-            "\"Material: \"+Material_Count"
+            "\"Brick: \"+Material_Count"
           ]
         },
         {
@@ -7961,7 +8511,7 @@
             "Material_Collected",
             "Text",
             "=",
-            "\"Material: \"+Material_Count"
+            "\"Brick: \"+Material_Count"
           ]
         },
         {
@@ -8075,7 +8625,7 @@
                 "Material_Collected",
                 "Text",
                 "=",
-                "\"Material: \"+Material_Count"
+                "\"Brick: \"+Material_Count"
               ]
             }
           ]

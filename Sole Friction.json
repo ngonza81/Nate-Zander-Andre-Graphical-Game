@@ -1132,6 +1132,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Metal/Jump/3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Camping Tent_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Camping Tent_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Non Combat Actions/725003fd04cd6093ce7aa781b28d089d744a2031603a67cfb9ef379c048c0733_Camping Tent_No Shadow.png",
+          "name": "Camping Tent_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Camping Tent_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Camping Tent_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Non Combat Actions/24960fbb7c583283d1e9e2a95609f146c2ac7b2ec2685b591c0e55737fb6c1eb_Camping Tent_Shadow.png",
+          "name": "Camping Tent_Shadow.png"
+        }
       }
     ],
     "resourceFolders": []
