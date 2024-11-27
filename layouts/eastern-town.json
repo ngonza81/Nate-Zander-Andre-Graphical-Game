@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Town",
-  "name": "Town",
+  "mangledName": "Eastern_32Town",
+  "name": "Eastern Town",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.338969317284597,
+    "zoomFactor": 1.134371579716145,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -55,8 +55,8 @@
       "name": "Player",
       "persistentUuid": "1e5e695b-4407-4a24-a6b5-1ec9952e238e",
       "width": 0,
-      "x": 637,
-      "y": 384,
+      "x": 12,
+      "y": 337,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -847,8 +847,8 @@
       "name": "Distance_Sprite4",
       "persistentUuid": "9bdd2944-bebe-4e3b-9e0f-e7f82377106f",
       "width": 0,
-      "x": 1273,
-      "y": 312,
+      "x": -57,
+      "y": 314,
       "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
@@ -5765,18 +5765,6 @@
       "actions": [
         {
           "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Player",
-            "=",
-            "635",
-            "=",
-            "380"
-          ]
-        },
-        {
-          "type": {
             "value": "CentreCamera"
           },
           "parameters": [
@@ -7939,7 +7927,7 @@
           "parameters": [
             "F",
             "=",
-            "1240",
+            "40",
             "=",
             "330"
           ]
@@ -7971,11 +7959,10 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"Eastern Town\""
+                ""
               ]
             }
           ]
