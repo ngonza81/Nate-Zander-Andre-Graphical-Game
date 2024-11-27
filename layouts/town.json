@@ -6443,6 +6443,148 @@
             "Animation"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Sprite"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "bbc4e719179ac4650740d6d2a0baaf53aa38dac99dfbd2f286be8bd459ef35d6_Walk_01.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Sprite"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "1f08b60718643736071315e96ed7f15123a75a932ec0aa9d2f1a57c44620f8e1_Walk_02.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Sprite"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "fe556ebac6d933b5efa6ebaef6cd0d7c673ee95c9ee896c0d9fcd67dc32b22a9_Walk_03.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Sprite"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "cee3d0a2d45c29e7ecca040547c949816d49fc49a5bc2e63bda108594fff50d8_Walk_04.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -7636,6 +7778,18 @@
             "Construct1",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
+            "no",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -7721,6 +7875,18 @@
             "Construct2",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
+            "no",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -7804,6 +7970,18 @@
           },
           "parameters": [
             "Construct3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
+            "no",
+            "",
             ""
           ]
         }

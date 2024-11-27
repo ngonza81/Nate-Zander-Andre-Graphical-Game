@@ -1062,6 +1062,76 @@
         "name": "house3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Walk_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bbc4e719179ac4650740d6d2a0baaf53aa38dac99dfbd2f286be8bd459ef35d6_Walk_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Gravel/Walk/bbc4e719179ac4650740d6d2a0baaf53aa38dac99dfbd2f286be8bd459ef35d6_Walk_01.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1f08b60718643736071315e96ed7f15123a75a932ec0aa9d2f1a57c44620f8e1_Walk_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Gravel/Walk/1f08b60718643736071315e96ed7f15123a75a932ec0aa9d2f1a57c44620f8e1_Walk_02.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fe556ebac6d933b5efa6ebaef6cd0d7c673ee95c9ee896c0d9fcd67dc32b22a9_Walk_03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Gravel/Walk/fe556ebac6d933b5efa6ebaef6cd0d7c673ee95c9ee896c0d9fcd67dc32b22a9_Walk_03.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_04.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cee3d0a2d45c29e7ecca040547c949816d49fc49a5bc2e63bda108594fff50d8_Walk_04.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Gravel/Walk/cee3d0a2d45c29e7ecca040547c949816d49fc49a5bc2e63bda108594fff50d8_Walk_04.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MetalV1_Jump_Land_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Metal/Jump/3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
