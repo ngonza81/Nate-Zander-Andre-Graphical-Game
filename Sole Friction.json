@@ -983,6 +983,58 @@
         "name": "brick.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Down.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f06cea76ad61e4faaf5402f71ac03f11e633d8d2c545ca5cf520787f57b89107_Arrow Key_Down.png",
+          "name": "Arrow Key_Down.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6e91d466fa9c499770ed63a04843a82e5b1a2a78d786478017540773f48dd8c3_Arrow Key_Left.png",
+          "name": "Arrow Key_Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f05350dd2750fd1fdcd279f7fb7bd2fa980165ed9816391d885fc57e28189d2c_Arrow Key_Right.png",
+          "name": "Arrow Key_Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Up.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/8ab56f2c1d8881a7e29b061847a91f2013f2020a1a69a2e2c91101a9ae1de692_Arrow Key_Up.png",
+          "name": "Arrow Key_Up.png"
+        }
       }
     ],
     "resourceFolders": []
