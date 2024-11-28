@@ -1158,6 +1158,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Non Combat Actions/24960fbb7c583283d1e9e2a95609f146c2ac7b2ec2685b591c0e55737fb6c1eb_Camping Tent_Shadow.png",
           "name": "Camping Tent_Shadow.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medikit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medikit.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Item/27d9fb61301d90e653bee3312d46faf9a242acc1b646c16b3d59999efc2c4a43_Medikit.png",
+          "name": "Medikit.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1167,7 +1180,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Material_Count",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

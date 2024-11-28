@@ -18,17 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4790395861758308,
+    "zoomFactor": 0.7370816317994566,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "name": "Material_Count",
-      "type": "number",
-      "value": 0
-    }
-  ],
+  "variables": [],
   "instances": [
     {
       "angle": 0,
@@ -1376,6 +1370,23 @@
         }
       ],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 45,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Brick",
+      "persistentUuid": "94f90d6e-337f-45ad-aa53-71f9ed9f3633",
+      "width": 55,
+      "x": 1007,
+      "y": 22,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1430,13 +1441,7 @@
       "name": "Player",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Material_Count",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [
         {
@@ -6238,6 +6243,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "fc19005cc50ca0cd97e501bbb120ef6426afd16e255a335774bb70f7314a071e",
+      "name": "Medikit",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Medikit.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 39,
+                        "y": 0
+                      },
+                      {
+                        "x": 39,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6254,6 +6319,9 @@
           },
           {
             "objectName": "Brick"
+          },
+          {
+            "objectName": "Medikit"
           }
         ]
       },
@@ -6610,6 +6678,17 @@
             "655",
             "=",
             "310"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Material_Collected",
+            "Text",
+            "=",
+            "\"Brick: \"+Material_Count"
           ]
         }
       ]
