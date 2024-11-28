@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7370816317994566,
+    "zoomFactor": 1.0615714305220751,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,7 +34,7 @@
       "persistentUuid": "73d3cf4f-2539-4d8d-95b7-29a88282510c",
       "width": 0,
       "x": 631,
-      "y": 297,
+      "y": 296,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,9 +65,9 @@
       "name": "Construct_1",
       "persistentUuid": "cf2109f0-f5f4-413b-9fec-18e7036c6e97",
       "width": 0,
-      "x": 434,
-      "y": 191,
-      "zOrder": 17,
+      "x": 446,
+      "y": 189,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -722,7 +722,7 @@
       "name": "Construct_2",
       "persistentUuid": "3692083b-7d6e-4840-813c-f56f5079ae76",
       "width": 0,
-      "x": 895,
+      "x": 902,
       "y": 353,
       "zOrder": 50,
       "numberProperties": [],
@@ -794,7 +794,7 @@
       "name": "Construct_3",
       "persistentUuid": "f3a45fb6-b5ba-45ef-8086-fd47b5a25b7e",
       "width": 0,
-      "x": 604,
+      "x": 612,
       "y": 99,
       "zOrder": 54,
       "numberProperties": [],
@@ -2165,83 +2165,48 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "Walking Down",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "Male Character 8_Walking Down_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Male Character 8_Walking Down_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Male Character 8_Walking Down_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2862,7 +2827,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Building requires 8 materials",
+      "string": "Building requires 8 bricks",
       "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
       "textAlignment": "left",
       "characterSize": 10,
@@ -2885,7 +2850,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Building requires 8 materials",
+        "text": "Building requires 8 bricks",
         "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -5714,7 +5679,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Building requires 6 materials",
+      "string": "Building requires 6 bricks",
       "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
       "textAlignment": "left",
       "characterSize": 10,
@@ -5737,7 +5702,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Building requires 6 materials",
+        "text": "Building requires 6 bricks",
         "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -5922,7 +5887,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Building requires 4 materials",
+      "string": "Building requires 4 bricks",
       "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
       "textAlignment": "left",
       "characterSize": 10,
@@ -5945,7 +5910,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Building requires 4 materials",
+        "text": "Building requires 4 bricks",
         "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -6794,8 +6759,44 @@
               },
               "parameters": [
                 "Player",
-                "Npc1",
+                "",
                 "20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Distance_Sprite",
+                "Player",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Distance_Sprite2",
+                "Player",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Distance_Sprite3",
+                "Player",
+                "40",
                 ""
               ]
             },
@@ -7520,6 +7521,16 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "NPC1_Quest",
+            "=",
+            "0"
+          ]
         }
       ],
       "actions": [
@@ -7556,23 +7567,6 @@
         },
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "NPC1_Dia",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "NPC1_Dia2"
-          ]
-        },
-        {
-          "type": {
             "value": "UnPauseTimer"
           },
           "parameters": [
@@ -7596,6 +7590,25 @@
           "parameters": [
             "Npc1",
             "npc1_dialogue",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Npc1",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "NPC1_Quest",
             "=",
             "1"
           ]
@@ -7638,23 +7651,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "NPC1_Dia"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "NPC1_Dia2",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "ResetTimer"
@@ -7844,6 +7840,25 @@
           "parameters": [
             "",
             "\"timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "Npc1",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "Npc1",
+            "=",
+            "0"
           ]
         }
       ]

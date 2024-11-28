@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9610368693714734,
+    "zoomFactor": 0.565315805512632,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,8 +34,8 @@
       "name": "Credits",
       "persistentUuid": "009b1311-6429-41bc-afed-915e0e9f968e",
       "width": 283,
-      "x": 463,
-      "y": 176,
+      "x": 316,
+      "y": 179,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -105,6 +105,22 @@
       "x": 562,
       "y": -6,
       "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Credits2",
+      "persistentUuid": "d4b29f5c-0c3f-42e0-b671-88de7fb94961",
+      "width": 0,
+      "x": 640,
+      "y": 179,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -271,6 +287,48 @@
       ],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Credits2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Code by:\nZander M.\nNathan G.\n\nSound by:\nNathan G.",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Code by:\nZander M.\nNathan G.\n\nSound by:\nNathan G.",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -278,6 +336,9 @@
     "children": [
       {
         "objectName": "Credits"
+      },
+      {
+        "objectName": "Credits2"
       },
       {
         "objectName": "Back"
