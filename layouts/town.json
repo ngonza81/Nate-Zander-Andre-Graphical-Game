@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.865525548257131,
+    "zoomFactor": 1.4790395861758308,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1249,6 +1249,132 @@
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision_Tile",
+      "persistentUuid": "4f8c6087-f18d-4467-bbb8-c73d76467f30",
+      "width": 0,
+      "x": 576,
+      "y": 0,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[982,983,982,983,982,983],[1036,1037,1036,1037,1036,1037]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision_Tile",
+      "persistentUuid": "eccf035d-e4c5-491b-bbce-763806c41258",
+      "width": 0,
+      "x": 576,
+      "y": 704,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[982,983,982,983,982,983],[1036,1037,1036,1037,1036,1037]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision_Tile",
+      "persistentUuid": "832fae40-b1d4-41d8-9b09-26a3c689040e",
+      "width": 0,
+      "x": 1216,
+      "y": 704,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[982,983,982,983,982,983],[1036,1037,1036,1037,1036,1037]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision_Tile",
+      "persistentUuid": "aa72552f-59fd-49bc-86da-e0a53d6963f4",
+      "width": 0,
+      "x": 1008,
+      "y": -2,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[982,983,982,983,982,983],[1036,1037,1036,1037,1036,1037]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision_Tile",
+      "persistentUuid": "0e94bcd5-3754-4c84-b0c4-fb3a3c59faea",
+      "width": 0,
+      "x": 0,
+      "y": 317,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":2,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[982,983],[1036,1037],[982,983],[1036,1037],[982,983],[1036,1037]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision_Tile",
+      "persistentUuid": "25dbc01b-8c1d-4879-a538-f71b3a55f39b",
+      "width": 0,
+      "x": 0,
+      "y": 29,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":2,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[982,983],[1036,1037],[982,983],[1036,1037],[982,983],[1036,1037]]}]}"
+        }
+      ],
       "initialVariables": []
     }
   ],
@@ -4467,7 +4593,7 @@
         "rowCount": 36,
         "columnCount": 54,
         "tileSize": 8,
-        "tilesWithHitBox": "208"
+        "tilesWithHitBox": "208,982,1036,983,1037"
       }
     },
     {
@@ -7886,8 +8012,32 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Collision_Tile",
+            "RpgUrbanMap16x16",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Collision_Tile",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
