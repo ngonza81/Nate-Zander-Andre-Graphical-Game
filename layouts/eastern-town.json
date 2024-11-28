@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3841198046307561,
+    "zoomFactor": 0.9296875000000487,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -212,90 +212,6 @@
       "x": 1330,
       "y": 207,
       "zOrder": 40,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Up",
-      "persistentUuid": "a54b410a-db12-41fe-9681-5472d7f8b533",
-      "width": 32,
-      "x": 1331,
-      "y": 135,
-      "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 31.999999999999993,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Left",
-      "persistentUuid": "0da576ff-ab58-4d20-af6f-db06352cda00",
-      "width": 32,
-      "x": 1308,
-      "y": 158,
-      "zOrder": 42,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Down",
-      "persistentUuid": "0ede4e68-8bbe-4a9b-ba60-884f567930cf",
-      "width": 32,
-      "x": 1331,
-      "y": 158,
-      "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Right",
-      "persistentUuid": "463e8057-fcb1-43d9-b9fb-cca41acf8a9d",
-      "width": 32,
-      "x": 1354,
-      "y": 158,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Movement",
-      "persistentUuid": "cb56ab4c-c90c-489b-8145-48d53884c7a8",
-      "width": 0,
-      "x": 1264,
-      "y": 153,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -995,132 +911,6 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 15,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Movement",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Use              to move",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Use              to move",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "timer",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 10,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 10,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "dia_var",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 10,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 10,
         "color": "0;0;0"
       }
     },
@@ -2875,822 +2665,6 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "88919b4121489a301d7fd01102dccfd0da59b918b13ed47ad907f937d05382b3",
-      "name": "Up",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Down",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Down.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Left",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Left.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Up",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Up.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "88919b4121489a301d7fd01102dccfd0da59b918b13ed47ad907f937d05382b3",
-      "name": "Left",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Down",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Down.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Left",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Left.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Up",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Up.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "88919b4121489a301d7fd01102dccfd0da59b918b13ed47ad907f937d05382b3",
-      "name": "Down",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Down",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Down.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Left",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Left.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Up",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Up.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "88919b4121489a301d7fd01102dccfd0da59b918b13ed47ad907f937d05382b3",
-      "name": "Right",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Down",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Down.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Left",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Left.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Up",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Up.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Construct1",
@@ -4497,28 +3471,7 @@
         "folderName": "UI",
         "children": [
           {
-            "objectName": "Right"
-          },
-          {
-            "objectName": "Down"
-          },
-          {
-            "objectName": "Left"
-          },
-          {
-            "objectName": "Up"
-          },
-          {
             "objectName": "F"
-          },
-          {
-            "objectName": "Movement"
-          },
-          {
-            "objectName": "timer"
-          },
-          {
-            "objectName": "dia_var"
           },
           {
             "objectName": "Material_Collected"
@@ -4712,110 +3665,6 @@
         },
         {
           "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Up",
-            "=",
-            "640",
-            "=",
-            "300"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Up",
-            "Animation",
-            "=",
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Left",
-            "=",
-            "620",
-            "=",
-            "320"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Left",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Down",
-            "=",
-            "640",
-            "=",
-            "320"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Down",
-            "Animation",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Right",
-            "=",
-            "660",
-            "=",
-            "320"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Right",
-            "Animation",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Movement",
-            "=",
-            "655",
-            "=",
-            "310"
-          ]
-        },
-        {
-          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -4823,78 +3672,6 @@
             "Text",
             "=",
             "\"Brick: \"+Material_Count"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"movement\"",
-            ">=",
-            "3"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PauseTimer"
-          },
-          "parameters": [
-            "",
-            "\"movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Up",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Left",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Down",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Right",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Movement",
-            ""
           ]
         }
       ]
@@ -5025,23 +3802,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Construct1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "Distance_Sprite"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Construct2"
           ]
         },
         {
@@ -5057,96 +3818,216 @@
             "value": "Cache"
           },
           "parameters": [
-            "Construct3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "Distance_Sprite3"
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Testing"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
       ],
-      "actions": [
+      "events": [
         {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "timer"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "East_Construct1",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Construct_1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Construction1_Tile",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Construct1",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dia_var"
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "timer"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "timer",
-            "Text",
-            "=",
-            "ToString(TimerElapsedTime(\"timer\"))"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "East_Construct1",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Construct1"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "dia_var",
-            "Text",
-            "=",
-            "ToString(Npc1.npc1_dialogue)"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "East_Construct2",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Construct_2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Construction2_Tile",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Construct2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "East_Construct2",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Construct2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "East_Construct3",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Construct_3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Construction3_Tile",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Construct3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "East_Construct3",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Construct3"
+              ]
+            }
           ]
         }
       ]
@@ -5584,7 +4465,7 @@
               },
               "parameters": [
                 "NPC1_Quest",
-                "=",
+                ">=",
                 "2"
               ]
             }
@@ -6257,18 +5138,6 @@
             "Construction1_Tile",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Movement",
-            "580",
-            "260",
-            "\"Dialogue\""
-          ]
         }
       ]
     },
@@ -6372,18 +5241,6 @@
             "Construction2_Tile",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Movement",
-            "580",
-            "260",
-            "\"Dialogue\""
-          ]
         }
       ]
     },
@@ -6486,18 +5343,6 @@
             "Player",
             "Construction3_Tile",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Movement",
-            "580",
-            "260",
-            "\"Dialogue\""
           ]
         }
       ]
@@ -6682,6 +5527,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "East_Construct1",
+            "True",
+            ""
+          ]
         }
       ]
     },
@@ -6779,6 +5634,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "East_Construct2",
+            "True",
+            ""
+          ]
         }
       ]
     },
@@ -6874,6 +5739,16 @@
             "3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
             "no",
             "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "East_Construct3",
+            "True",
             ""
           ]
         }

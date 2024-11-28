@@ -3052,34 +3052,34 @@
       "value": 0
     },
     {
-      "name": "Variable",
-      "type": "number",
-      "value": 0
+      "name": "West_Construct1",
+      "type": "boolean",
+      "value": false
     },
     {
-      "name": "Variable2",
-      "type": "number",
-      "value": 0
+      "name": "West_Construct2",
+      "type": "boolean",
+      "value": false
     },
     {
-      "name": "Variable3",
-      "type": "number",
-      "value": 0
+      "name": "West_Construct3",
+      "type": "boolean",
+      "value": false
     },
     {
-      "name": "Variable4",
-      "type": "number",
-      "value": 0
+      "name": "East_Construct1",
+      "type": "boolean",
+      "value": false
     },
     {
-      "name": "Variable5",
-      "type": "number",
-      "value": 0
+      "name": "East_Construct2",
+      "type": "boolean",
+      "value": false
     },
     {
-      "name": "Variable6",
-      "type": "number",
-      "value": 0
+      "name": "East_Construct3",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
