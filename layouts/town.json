@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 5.573167571145628,
+    "zoomFactor": 3.503154529958479,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1450,6 +1450,24 @@
       "x": 637,
       "y": 400,
       "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 19,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Test_Box_Text",
+      "opacity": 128,
+      "persistentUuid": "b051d453-224a-4783-881d-446ee6e4c06d",
+      "width": 50,
+      "x": 531,
+      "y": 366,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6738,26 +6756,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "F",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "F_Base_Layer",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -6768,7 +6767,7 @@
               },
               "parameters": [
                 "",
-                "f"
+                "z"
               ]
             }
           ],
@@ -6791,6 +6790,15 @@
                 "Total_Construction_Progress",
                 "+",
                 "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "TestBox",
+                "\"255;0;0\""
               ]
             }
           ]
@@ -7336,6 +7344,14 @@
             "npc1_dialogue",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
           ]
         }
       ]
@@ -9067,6 +9083,14 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
+          ]
         }
       ]
     },
@@ -9182,6 +9206,14 @@
             "Total_Construction_Progress",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
           ]
         }
       ]
@@ -9299,6 +9331,14 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
+          ]
         }
       ]
     },
@@ -9312,7 +9352,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Material Collision"
+      "comment": "Brick Collision"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -9375,10 +9415,11 @@
           "actions": [
             {
               "type": {
-                "value": "Cache"
+                "value": "Delete"
               },
               "parameters": [
-                "Brick"
+                "Brick",
+                ""
               ]
             },
             {
@@ -9400,6 +9441,14 @@
                 "Text",
                 "=",
                 "\"Brick: \"+Material_Count"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "F_Base_Layer"
               ]
             }
           ]

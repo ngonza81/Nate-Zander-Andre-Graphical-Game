@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.338969317284615,
+    "zoomFactor": 2.5143672964988997,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -809,6 +809,41 @@
       "x": 16,
       "y": 360,
       "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.7272727272727273,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TestBox",
+      "persistentUuid": "1e8cbf26-92e1-4849-a662-67a258d78eb2",
+      "width": 16,
+      "x": 40,
+      "y": 278,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Test_Box_Text",
+      "opacity": 128,
+      "persistentUuid": "1a99520a-b6b3-41ca-b2f0-b7dd6d06391b",
+      "width": 76,
+      "x": 11,
+      "y": 263,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3664,6 +3699,102 @@
         "textG": 0,
         "textR": 0
       },
+      "comment": "Testing"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "TestBox",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "z"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "People_Helped_Progress",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Total_Construction_Progress",
+                "+",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "TestBox",
+                "\"255;0;0\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
       "comment": "UI Set Up"
     },
     {
@@ -3831,6 +3962,19 @@
                 "Distance_Sprite4",
                 "Player",
                 "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TestBox",
+                "",
+                "",
                 ""
               ]
             }
@@ -4647,6 +4791,14 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
+          ]
         }
       ]
     },
@@ -4662,6 +4814,16 @@
             "Daughter1",
             "20",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "NPC1_Quest",
+            "=",
+            "1"
           ]
         }
       ],
@@ -5724,6 +5886,14 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
+          ]
         }
       ]
     },
@@ -5849,6 +6019,14 @@
             "Total_Construction_Progress",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
           ]
         }
       ]
@@ -5976,6 +6154,14 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
+          ]
         }
       ]
     },
@@ -6078,6 +6264,14 @@
                 "Text",
                 "=",
                 "\"Brick: \"+Material_Count"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "F_Base_Layer"
               ]
             }
           ]
