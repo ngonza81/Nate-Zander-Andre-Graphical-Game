@@ -3145,7 +3145,7 @@
     },
     {
       "assetStoreId": "7dcab69a6f649e686d80ac37d60d80e382638df4e2306f422dab47e3d266044d",
-      "name": "WoodGreenBar",
+      "name": "People_Progress",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -3320,7 +3320,7 @@
         "objectName": "Construction_Progress"
       },
       {
-        "objectName": "WoodGreenBar"
+        "objectName": "People_Progress"
       },
       {
         "objectName": "Houses_Built"

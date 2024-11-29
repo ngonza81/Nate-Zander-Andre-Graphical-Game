@@ -803,7 +803,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "WoodGreenBar",
+      "name": "People_Progress",
       "persistentUuid": "8b5a18da-8bb9-4590-99c2-06d9ee6c82b7",
       "width": 0,
       "x": 19,
@@ -3838,7 +3838,7 @@
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
           },
           "parameters": [
-            "WoodGreenBar",
+            "People_Progress",
             "=",
             "People_Helped_Progress",
             ""
