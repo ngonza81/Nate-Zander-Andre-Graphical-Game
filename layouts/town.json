@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.0606791352696834,
+    "zoomFactor": 5.573167571145628,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -194,23 +194,6 @@
       "x": 475,
       "y": 220,
       "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2.4615384615384617,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "F",
-      "persistentUuid": "bf871c96-4966-46ac-86be-e4ee7bdd0af8",
-      "width": 32,
-      "x": 1330,
-      "y": 207,
-      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1450,6 +1433,23 @@
       "x": 548,
       "y": 382,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "F_Base_Layer",
+      "persistentUuid": "5aa657b5-c6a9-4e2e-8c15-9db5aaebc7ca",
+      "width": 12,
+      "x": 637,
+      "y": 400,
+      "zOrder": 76,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6117,7 +6117,7 @@
       "actions": [
         {
           "type": {
-            "value": "MettreXY"
+            "value": "SetCenter"
           },
           "parameters": [
             "Player",
@@ -6208,6 +6208,17 @@
         },
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "F_Base_Layer",
+            "Animation",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
             "value": "SetCenter"
           },
           "parameters": [
@@ -6224,6 +6235,14 @@
           },
           "parameters": [
             "F"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
           ]
         },
         {
@@ -6508,6 +6527,14 @@
           "parameters": [
             "F"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
+          ]
         }
       ]
     },
@@ -6718,6 +6745,15 @@
           },
           "parameters": [
             "F",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
             ""
           ]
         }
@@ -7131,6 +7167,18 @@
             "Street_Tile",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "F_Base_Layer",
+            "=",
+            "Player.CenterX()",
+            "=",
+            "Player.CenterY()+17"
+          ]
         }
       ]
     },
@@ -7360,6 +7408,15 @@
                 "F",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "F_Base_Layer",
+                ""
+              ]
             }
           ]
         }
@@ -7413,6 +7470,14 @@
           },
           "parameters": [
             "F"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
           ]
         }
       ]
@@ -8580,6 +8645,15 @@
             "F",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
+            ""
+          ]
         }
       ]
     },
@@ -8693,6 +8767,15 @@
           },
           "parameters": [
             "F",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
             ""
           ]
         }
@@ -8810,6 +8893,15 @@
             "F",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
+            ""
+          ]
         }
       ]
     },
@@ -8912,6 +9004,15 @@
           },
           "parameters": [
             "Construction1_Tile",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Distance_Sprite",
             ""
           ]
         },
@@ -9024,6 +9125,15 @@
         },
         {
           "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Distance_Sprite2",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -9131,6 +9241,15 @@
         },
         {
           "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Distance_Sprite3",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -9226,6 +9345,15 @@
           },
           "parameters": [
             "F",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
             ""
           ]
         }
@@ -9324,6 +9452,15 @@
           },
           "parameters": [
             "F",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
             ""
           ]
         }
