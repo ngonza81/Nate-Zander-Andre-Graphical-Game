@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1343715797161584,
+    "zoomFactor": 1.4790395861758237,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -552,7 +552,7 @@
       "persistentUuid": "1346e27e-c627-4a65-8e45-6458625f4e5c",
       "width": 158,
       "x": 855,
-      "y": 152,
+      "y": 149,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -745,6 +745,70 @@
       "x": 710,
       "y": 189,
       "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Construction_Progress",
+      "persistentUuid": "7d5510bf-98c0-4bdb-abfb-3b9665e03330",
+      "width": 0,
+      "x": 20,
+      "y": 30,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Houses_Built",
+      "persistentUuid": "6e75154e-9e81-4578-9e64-cde91cfc8d5b",
+      "width": 0,
+      "x": 18,
+      "y": 10,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "People_Helped",
+      "persistentUuid": "3134eec6-6415-4240-af31-e87a577e7d83",
+      "width": 0,
+      "x": 20,
+      "y": 65,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "WoodGreenBar",
+      "persistentUuid": "8b5a18da-8bb9-4590-99c2-06d9ee6c82b7",
+      "width": 0,
+      "x": 19,
+      "y": 85,
+      "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2726,20 +2790,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 282.5,
-                        "y": 766.5
+                        "x": 273.5,
+                        "y": 837.5
                       },
                       {
-                        "x": 742,
-                        "y": 766.5
+                        "x": 296.5,
+                        "y": 768.5
                       },
                       {
-                        "x": 742,
-                        "y": 919
+                        "x": 718,
+                        "y": 768
                       },
                       {
-                        "x": 275,
-                        "y": 919
+                        "x": 746,
+                        "y": 839.5
+                      },
+                      {
+                        "x": 719,
+                        "y": 914
+                      },
+                      {
+                        "x": 299.5,
+                        "y": 916
                       }
                     ]
                   ]
@@ -2787,20 +2859,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 332,
-                        "y": 747
+                        "x": 325.5,
+                        "y": 820.5
                       },
                       {
-                        "x": 751,
-                        "y": 745.5
+                        "x": 345.5,
+                        "y": 749
                       },
                       {
-                        "x": 746.5,
-                        "y": 898
+                        "x": 734.5,
+                        "y": 746
                       },
                       {
-                        "x": 330.5,
-                        "y": 895.5
+                        "x": 749.5,
+                        "y": 817
+                      },
+                      {
+                        "x": 738,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 347,
+                        "y": 892.5
                       }
                     ]
                   ]
@@ -3734,6 +3814,34 @@
           },
           "parameters": [
             "F"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Construction_Progress",
+            "=",
+            "Total_Construction_Progress",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "WoodGreenBar",
+            "=",
+            "People_Helped_Progress",
+            ""
           ]
         }
       ]
@@ -5503,6 +5611,16 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Total_Construction_Progress",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -5610,6 +5728,16 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Total_Construction_Progress",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -5716,6 +5844,16 @@
             "East_Construct3",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Total_Construction_Progress",
+            "+",
+            "1"
           ]
         }
       ]

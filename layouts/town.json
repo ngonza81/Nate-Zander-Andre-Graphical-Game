@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9610368693715459,
+    "zoomFactor": 1.633762677931629,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1367,6 +1367,72 @@
       "x": 645,
       "y": 300,
       "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 44.73551637279598,
+      "height": 32.61964735516373,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Construction_Progress",
+      "persistentUuid": "0d8ddb13-7997-4c0b-823c-34d7a3b6d4aa",
+      "width": 370,
+      "x": 20,
+      "y": 30,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 44.73551637279598,
+      "height": 32.61964735516373,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "WoodGreenBar",
+      "persistentUuid": "e7aba441-58b8-4e90-9fe8-af4795ece6cb",
+      "width": 370,
+      "x": 20,
+      "y": 85,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Houses_Built",
+      "persistentUuid": "bf4c09dc-5d55-4ddf-8a06-9e3313c7949c",
+      "width": 0,
+      "x": 20,
+      "y": 10,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "People_Helped",
+      "persistentUuid": "ee8eb77d-52b4-469e-aba0-c41bb0959625",
+      "width": 0,
+      "x": 20,
+      "y": 65,
+      "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4969,20 +5035,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 282.5,
+                        "x": 277,
+                        "y": 843.5
+                      },
+                      {
+                        "x": 291,
+                        "y": 770.5
+                      },
+                      {
+                        "x": 729.5,
                         "y": 766.5
                       },
                       {
-                        "x": 742,
-                        "y": 766.5
+                        "x": 743,
+                        "y": 836.5
                       },
                       {
-                        "x": 742,
-                        "y": 919
+                        "x": 728.5,
+                        "y": 917.5
                       },
                       {
-                        "x": 275,
-                        "y": 919
+                        "x": 289,
+                        "y": 915.5
                       }
                     ]
                   ]
@@ -5030,20 +5104,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 332,
-                        "y": 747
+                        "x": 327,
+                        "y": 815
                       },
                       {
-                        "x": 751,
-                        "y": 745.5
+                        "x": 346.5,
+                        "y": 747.5
                       },
                       {
-                        "x": 746.5,
-                        "y": 898
+                        "x": 738.5,
+                        "y": 748.5
                       },
                       {
-                        "x": 330.5,
-                        "y": 895.5
+                        "x": 752,
+                        "y": 816
+                      },
+                      {
+                        "x": 735,
+                        "y": 896.5
+                      },
+                      {
+                        "x": 336.5,
+                        "y": 893.5
                       }
                     ]
                   ]
@@ -5090,20 +5172,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 255.5,
-                        "y": 804
+                        "x": 252,
+                        "y": 869.5
                       },
                       {
-                        "x": 766,
-                        "y": 804
+                        "x": 267.5,
+                        "y": 806.5
                       },
                       {
-                        "x": 763,
-                        "y": 938.5
+                        "x": 757,
+                        "y": 811.5
                       },
                       {
-                        "x": 252.5,
-                        "y": 940
+                        "x": 768,
+                        "y": 868
+                      },
+                      {
+                        "x": 756,
+                        "y": 936
+                      },
+                      {
+                        "x": 270,
+                        "y": 936.5
                       }
                     ]
                   ]
@@ -6400,6 +6490,34 @@
           },
           "parameters": [
             "F"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Construction_Progress",
+            "=",
+            "Total_Construction_Progress",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "WoodGreenBar",
+            "=",
+            "People_Helped_Progress",
+            ""
           ]
         }
       ]
@@ -8059,6 +8177,16 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "People_Helped_Progress",
+                "+",
+                "1"
+              ]
             }
           ]
         }
@@ -8745,6 +8873,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Total_Construction_Progress",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -8842,6 +8980,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Total_Construction_Progress",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -8938,6 +9086,16 @@
             "no",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Total_Construction_Progress",
+            "+",
+            "1"
           ]
         }
       ]
