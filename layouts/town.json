@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 3.503154529958479,
+    "zoomFactor": 0.7130377630691013,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -124,8 +124,8 @@
       "name": "Brick",
       "persistentUuid": "1fa91aff-8eeb-41d2-9233-3d18f54e4eb3",
       "width": 16,
-      "x": 484,
-      "y": 393,
+      "x": 167,
+      "y": 689,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -309,8 +309,8 @@
       "name": "Brick",
       "persistentUuid": "07b8682b-f435-4ef6-8404-28fa7af5b70c",
       "width": 16,
-      "x": 289,
-      "y": 405,
+      "x": 443,
+      "y": 662,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -326,8 +326,8 @@
       "name": "Brick",
       "persistentUuid": "ae250ff7-6b10-4a6d-a9b6-3fbe92a9c5fc",
       "width": 16,
-      "x": 848,
-      "y": 453,
+      "x": 871,
+      "y": 477,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -343,8 +343,8 @@
       "name": "Brick",
       "persistentUuid": "2e2a0796-a7ca-4047-a2f8-f201cf2ef1eb",
       "width": 16,
-      "x": 520,
-      "y": 551,
+      "x": 835,
+      "y": 634,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -411,8 +411,8 @@
       "name": "Brick",
       "persistentUuid": "4351fe6d-7ef3-42fa-b08a-cf72479a825e",
       "width": 16,
-      "x": 500,
-      "y": 516,
+      "x": 994,
+      "y": 629,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -428,8 +428,8 @@
       "name": "Brick",
       "persistentUuid": "7552c231-3683-4870-b5d0-38037a7c27f4",
       "width": 16,
-      "x": 509,
-      "y": 437,
+      "x": 1047,
+      "y": 471,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -445,8 +445,8 @@
       "name": "Brick",
       "persistentUuid": "698b3148-0249-42d6-8f45-dbe2d1af373f",
       "width": 16,
-      "x": 344,
-      "y": 430,
+      "x": 273,
+      "y": 168,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -462,8 +462,8 @@
       "name": "Brick",
       "persistentUuid": "984fd899-c33a-4f72-8435-94a2d058a484",
       "width": 16,
-      "x": 403,
-      "y": 258,
+      "x": 173,
+      "y": 282,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -496,8 +496,8 @@
       "name": "Brick",
       "persistentUuid": "cc53d0b2-033d-48e3-a0ee-84c492e1850c",
       "width": 16,
-      "x": 389,
-      "y": 636,
+      "x": 1105,
+      "y": 260,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -530,8 +530,8 @@
       "name": "Brick",
       "persistentUuid": "06b565c9-179d-4583-9728-9f987cef1d67",
       "width": 16,
-      "x": 393,
-      "y": 389,
+      "x": 396,
+      "y": 282,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -7652,6 +7652,18 @@
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -7760,6 +7772,18 @@
                 "640",
                 "=",
                 "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -8072,6 +8096,18 @@
                 "=",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -8188,6 +8224,18 @@
               },
               "parameters": [
                 "NPC1_Dia3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -9449,6 +9497,18 @@
               },
               "parameters": [
                 "F_Base_Layer"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+                "",
+                "",
+                ""
               ]
             }
           ]

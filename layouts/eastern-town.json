@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.5143672964988997,
+    "zoomFactor": 0.511778403521048,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -4993,6 +4993,18 @@
             "=",
             "2"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -5083,6 +5095,18 @@
             "640",
             "=",
             "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -6272,6 +6296,18 @@
               },
               "parameters": [
                 "F_Base_Layer"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+                "",
+                "",
+                ""
               ]
             }
           ]
