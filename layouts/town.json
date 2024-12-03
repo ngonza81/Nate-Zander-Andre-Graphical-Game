@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630691013,
+    "zoomFactor": 1.5804687500001537,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -102,8 +102,8 @@
       "name": "Street_Tile",
       "persistentUuid": "08b2f64f-3022-455a-a1a5-14ab5de9867c",
       "width": 0,
-      "x": -16,
-      "y": -16,
+      "x": -29,
+      "y": -14,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -175,7 +175,7 @@
       "name": "Material_Collected",
       "persistentUuid": "9e37620e-4958-4533-acb4-bef09fa64def",
       "width": 174,
-      "x": 1067,
+      "x": 1065,
       "y": 17,
       "zOrder": 28,
       "numberProperties": [],
@@ -394,8 +394,8 @@
       "name": "Brick",
       "persistentUuid": "5a8c54d7-0cb1-4d15-bbf5-987d6c7e063a",
       "width": 16,
-      "x": 823,
-      "y": 47,
+      "x": 829,
+      "y": 37,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -791,8 +791,8 @@
       "name": "Distance_Sprite4",
       "persistentUuid": "9bdd2944-bebe-4e3b-9e0f-e7f82377106f",
       "width": 0,
-      "x": 1273,
-      "y": 312,
+      "x": 1261,
+      "y": 311,
       "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
@@ -1323,23 +1323,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 45,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Brick",
-      "persistentUuid": "94f90d6e-337f-45ad-aa53-71f9ed9f3633",
-      "width": 55,
-      "x": 1007,
-      "y": 22,
-      "zOrder": 71,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 13,
       "keepRatio": true,
@@ -1468,6 +1451,90 @@
       "x": 531,
       "y": 366,
       "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Med_Collected",
+      "persistentUuid": "446b676b-f17c-460e-9d5b-755bb079b1a8",
+      "width": 0,
+      "x": 1065,
+      "y": 71,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medikit",
+      "persistentUuid": "4c1c11f1-6b5e-4d19-9639-f3d25c9d9070",
+      "width": 16,
+      "x": 299,
+      "y": 618,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medikit",
+      "persistentUuid": "a1ba0555-3e8e-46d3-bbfa-2424a06ebc3e",
+      "width": 16,
+      "x": 1017,
+      "y": 551,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medikit",
+      "persistentUuid": "2c081f42-2d8f-4c27-b2d7-341e13d04071",
+      "width": 16,
+      "x": 872,
+      "y": 196,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medikit",
+      "persistentUuid": "d2ebbd3b-a7e0-4318-95e6-1cadcf6ee1a9",
+      "width": 16,
+      "x": 438,
+      "y": 172,
+      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5968,6 +6035,48 @@
         "characterSize": 15,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Med_Collected",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Medkit: 0",
+      "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 3,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Medkit: 0",
+        "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6019,6 +6128,9 @@
           },
           {
             "objectName": "Material_Collected"
+          },
+          {
+            "objectName": "Med_Collected"
           }
         ]
       },
@@ -6366,17 +6478,6 @@
             "=",
             "310"
           ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Material_Collected",
-            "Text",
-            "=",
-            "\"Brick: \"+Material_Count"
-          ]
         }
       ]
     },
@@ -6580,6 +6681,43 @@
             "=",
             "People_Helped_Progress",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Material_Collected",
+            "Text",
+            "=",
+            "\"Brick: \"+Material_Count"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Med_Collected",
+            "Text",
+            "=",
+            "\"Medkit: \"+Med_Count"
           ]
         }
       ]
@@ -9489,6 +9627,131 @@
                 "Text",
                 "=",
                 "\"Brick: \"+Material_Count"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "F_Base_Layer"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Med-Kit Collision"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Medikit",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Medikit"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Medikit",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Med_Count",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Med_Collected",
+                "Text",
+                "=",
+                "\"Medkit: \"+Med_Count"
               ]
             },
             {

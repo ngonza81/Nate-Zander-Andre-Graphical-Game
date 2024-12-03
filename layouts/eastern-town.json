@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.511778403521048,
+    "zoomFactor": 0.7130377630690842,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -176,7 +176,7 @@
       "name": "Material_Collected",
       "persistentUuid": "9e37620e-4958-4533-acb4-bef09fa64def",
       "width": 173,
-      "x": 1067,
+      "x": 1065,
       "y": 17,
       "zOrder": 28,
       "numberProperties": [],
@@ -701,23 +701,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 45,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Brick",
-      "persistentUuid": "22ed61fb-5140-4866-b94a-a99677091186",
-      "width": 55,
-      "x": 1007,
-      "y": 22,
-      "zOrder": 71,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 13,
       "keepRatio": true,
@@ -844,6 +827,22 @@
       "x": 11,
       "y": 263,
       "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Med_Collected",
+      "persistentUuid": "640eb32e-efd8-4371-b65b-073ae2d0ddbd",
+      "width": 0,
+      "x": 1065,
+      "y": 71,
+      "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3523,6 +3522,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Med_Collected",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Medkit: 0",
+      "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 3,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Medkit: 0",
+        "font": "6afaa822a71f4d7c0f30cd250fbf16d694a7ea2c205446853b2690340026c9ba_NotoSansArabicUI-Medium.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3556,6 +3597,9 @@
           },
           {
             "objectName": "Material_Collected"
+          },
+          {
+            "objectName": "Med_Collected"
           }
         ]
       },
@@ -3860,6 +3904,17 @@
             "Text",
             "=",
             "\"Brick: \"+Material_Count"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Med_Collected",
+            "Text",
+            "=",
+            "\"Medkit: \"+Med_Count"
           ]
         },
         {
@@ -6288,6 +6343,131 @@
                 "Text",
                 "=",
                 "\"Brick: \"+Material_Count"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "F_Base_Layer"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Med-Kit Collision"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Medikit",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Medikit"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "F_Base_Layer",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Medikit",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Med_Count",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Med_Collected",
+                "Text",
+                "=",
+                "\"Medkit: \"+Med_Count"
               ]
             },
             {
