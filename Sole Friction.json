@@ -1577,6 +1577,51 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/e340e75f8279fc72890d969470be625765323ec8941a33183258a51a6c75800a_Male Character 6_Walking Up_3.png",
           "name": "Male Character 6_Walking Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Destroyed_house.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Destroyed_house.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "destroyed_house2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "destroyed_house2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "destroyed_house_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"destroyed_house_3.png\",\"extension\":\".png\"}",
+        "name": "destroyed_house_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "destroyed_house_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "destroyed_house_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "destroyed_house_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "destroyed_house_5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
