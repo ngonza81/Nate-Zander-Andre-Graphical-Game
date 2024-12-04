@@ -18,28 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9296875000000954,
+    "zoomFactor": 0.8416428125373994,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Npc1",
-      "persistentUuid": "73d3cf4f-2539-4d8d-95b7-29a88282510c",
-      "width": 0,
-      "x": 631,
-      "y": 296,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -373,8 +357,8 @@
       "name": "Brick",
       "persistentUuid": "5a8c54d7-0cb1-4d15-bbf5-987d6c7e063a",
       "width": 16,
-      "x": 829,
-      "y": 37,
+      "x": 805,
+      "y": 122,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -666,7 +650,7 @@
       "width": 116,
       "x": 620,
       "y": 71,
-      "zOrder": 52,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1267,8 +1251,8 @@
       "name": "Daughter1",
       "persistentUuid": "2ca48d95-3978-484b-b845-f21b0b1aca6d",
       "width": 12.235294117647056,
-      "x": 645,
-      "y": 300,
+      "x": 646,
+      "y": 299,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -1559,6 +1543,729 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Man1",
+      "persistentUuid": "6d717303-1848-43b9-a0df-067fa067073d",
+      "width": 32,
+      "x": 623,
+      "y": 285,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "d9ddbd66-9407-48ba-a653-d2601fa055bc",
+      "width": 30,
+      "x": 548,
+      "y": 209,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "999f9021-ccb2-48fc-97d9-4d97bcc2d731",
+      "width": 30,
+      "x": 713,
+      "y": 262,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.024390243902439,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "ae2c83ab-901b-4c30-8b05-e971b60eb9c3",
+      "width": 42,
+      "x": 676,
+      "y": 364,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "9eb06b65-a0b5-49f2-bc89-e1d31715781d",
+      "width": 32,
+      "x": 751,
+      "y": 271,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "3991d5bb-6dde-45cb-bf64-51c2f599dee3",
+      "width": 30,
+      "x": 351,
+      "y": 421,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.024390243902439,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "54373ec2-4448-4f3a-90dc-30532b3a830a",
+      "width": 42,
+      "x": 187,
+      "y": 483,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "6e3bb076-6956-42e5-8634-9ad7563f61e1",
+      "width": 30,
+      "x": 388,
+      "y": 588,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.024390243902439,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "8662a572-67c4-4f57-94a6-4e67a59ce167",
+      "width": 42,
+      "x": 147,
+      "y": 629,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "69315e1b-0e9b-4e1f-8231-fd292120a611",
+      "width": 32,
+      "x": 393,
+      "y": 525,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "eac59b7a-8f4e-42f8-9c70-8cb26eec3225",
+      "width": 32,
+      "x": 89,
+      "y": 507,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "2d3d5862-9ff4-4d98-b52e-7527c34b3fa3",
+      "width": 32,
+      "x": 245,
+      "y": 590,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "4001ed85-a5b6-46f5-a0ec-92c4fd9188cd",
+      "width": 30,
+      "x": 892,
+      "y": 406,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "96099781-20d6-4fcf-946c-207b86140b4a",
+      "width": 30,
+      "x": 1004,
+      "y": 575,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "68be8fb3-34c2-408a-81fc-81efbbbd491c",
+      "width": 30,
+      "x": 790,
+      "y": 518,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "018d2ff2-7fc6-4938-b4b1-5d2352a906d7",
+      "width": 30,
+      "x": 928,
+      "y": 670,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "d20cb9f4-67ff-4e3a-8415-1b09e7e98ee2",
+      "width": 30,
+      "x": 1177,
+      "y": 455,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "17ccb04f-6a60-4429-a62f-751ae47c6137",
+      "width": 32,
+      "x": 795,
+      "y": 409,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "0af9255d-b902-4dc9-8dd0-a583d6b524ed",
+      "width": 32,
+      "x": 173,
+      "y": 164,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "12e9e4cd-81ce-42ef-a5d2-36983b73bfca",
+      "width": 30,
+      "x": 318,
+      "y": 127,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "33cd9f6b-0b8f-407a-9565-7c62b3bf59d3",
+      "width": 30,
+      "x": 457,
+      "y": 97,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "b209d9dd-3926-403b-bf58-896da8a77100",
+      "width": 89,
+      "x": 742,
+      "y": 150,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "0534770b-8e7a-4b9e-99f0-949b6908515a",
+      "width": 0,
+      "x": 771,
+      "y": 194,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "3b1fc0f4-1fbd-4117-87f1-5932cd6124a8",
+      "width": 0,
+      "x": 516,
+      "y": 391,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "f3d657a5-e95a-4242-9740-0d3e82e361db",
+      "width": 0,
+      "x": 838,
+      "y": 537,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "1320ed5a-7326-4d1e-a297-2c08a365d1b4",
+      "width": 0,
+      "x": 1156,
+      "y": 194,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "ab0f8293-c518-4ab2-8319-5b9e76905a1c",
+      "width": 0,
+      "x": 390,
+      "y": 206,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "99e5d45c-be5c-4238-92ef-d4eb7adee586",
+      "width": 0,
+      "x": 166,
+      "y": 205,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "c6f65ec3-eb14-4ac4-a13a-31d6c6058bdf",
+      "width": 0,
+      "x": 241,
+      "y": 485,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "cc5f83b9-fb2d-4db7-b2fd-5a6e78ad1d59",
+      "width": 0,
+      "x": 644,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "756e7876-76d7-4e6e-85f6-a0ae09f306a3",
+      "width": 0,
+      "x": 704,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "3bb0866c-06ff-4a37-82bb-904d854d08a5",
+      "width": 0,
+      "x": 764,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "54435835-9777-4c6e-9cf8-2f9c7b666fb8",
+      "width": 0,
+      "x": 824,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "3efe73ca-78fe-4182-bf45-db31b9e2340a",
+      "width": 0,
+      "x": 884,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "17e11d4b-3d93-4d41-b179-3453fef6f4af",
+      "width": 0,
+      "x": 1104,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "09d497c4-cdce-4b1e-99d1-ed67ebbdcf24",
+      "width": 0,
+      "x": 1184,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orange_Building_TIle",
+      "persistentUuid": "af059303-0711-4f28-9f94-c4a0363d03af",
+      "width": 0,
+      "x": 944,
+      "y": 15,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,2],[54,56]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "a52959bc-e26e-48d8-b40f-00769aa90304",
+      "width": 89,
+      "x": 615,
+      "y": -30,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "9b8af63f-c200-4da3-9f66-96c00fd885ae",
+      "width": 89,
+      "x": 676,
+      "y": -29,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1604,7 +2311,7 @@
         "rowCount": 18,
         "columnCount": 27,
         "tileSize": 16,
-        "tilesWithHitBox": "473,446,419,285,128,209,129,210,130,157,184,211,152,153,154,155,182,156,205,206,207,208,124,151,178,445,254,280,279,252,253,307,306,305,278,251,221,248,222,249,223,250,382,383,384,357,356,355,358,385,16,43,70,97,98,99,100,101,102,103,47,74,48,75,49,76,44,45,46"
+        "tilesWithHitBox": "473,446,419,285,128,209,129,210,130,157,184,211,152,153,154,155,182,156,205,206,207,208,124,151,178,445,254,280,279,252,253,307,306,305,278,251,221,248,222,249,223,250,382,383,384,357,356,355,358,385,16,43,70,97,98,99,100,101,102,103,47,74,48,75,49,76,44,45,46,0,2,56,54"
       }
     },
     {
@@ -5816,16 +6523,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "No Shadow",
+          "name": "Camping",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Camping Tent_No Shadow.png",
+                  "image": "Camping Tent_Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5864,16 +6572,17 @@
           ]
         },
         {
-          "name": "Shadow",
+          "name": "Medical",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Camping Tent_Shadow.png",
+                  "image": "Camping Tent_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8289,7 +8998,7 @@
               },
               "parameters": [
                 "Player",
-                "Npc1",
+                "Man1",
                 "20",
                 ""
               ]
@@ -9132,25 +9841,6 @@
             "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
           },
           "parameters": [
-            "Npc1",
-            "Animation"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeSprite"
-          },
-          "parameters": [
-            "Npc1",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-          },
-          "parameters": [
             "Daughter1",
             "Animation"
           ]
@@ -9240,7 +9930,7 @@
           },
           "parameters": [
             "Player",
-            "Npc1",
+            "Man1",
             "20",
             ""
           ]
@@ -9252,7 +9942,7 @@
             "value": "SetNumberObjectVariable"
           },
           "parameters": [
-            "Npc1",
+            "Man1",
             "npc1_dialogue",
             "=",
             "0"
@@ -9277,7 +9967,7 @@
           },
           "parameters": [
             "Player",
-            "Npc1",
+            "Man1",
             "20",
             ""
           ]
@@ -9360,7 +10050,7 @@
           },
           "parameters": [
             "Player",
-            "Npc1",
+            "Man1",
             "20",
             ""
           ]
@@ -9447,7 +10137,7 @@
               },
               "parameters": [
                 "Player",
-                "Npc1",
+                "Man1",
                 "20",
                 ""
               ]
@@ -9466,7 +10156,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "0"
@@ -9540,19 +10230,10 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-              },
-              "parameters": [
-                "Npc1",
-                "Animation"
               ]
             },
             {
@@ -9616,7 +10297,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "1"
@@ -9647,7 +10328,7 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "2"
@@ -9719,7 +10400,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "2"
@@ -9741,7 +10422,7 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "0"
@@ -9777,7 +10458,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "0"
@@ -9833,19 +10514,10 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "Npc1",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
                 "value": "ChangeSprite"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "=",
                 "0"
               ]
@@ -9891,7 +10563,7 @@
               },
               "parameters": [
                 "Player",
-                "Npc1",
+                "Man1",
                 "20",
                 ""
               ]
@@ -9910,7 +10582,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "0"
@@ -9984,19 +10656,10 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-              },
-              "parameters": [
-                "Npc1",
-                "Animation"
               ]
             },
             {
@@ -10060,7 +10723,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "1"
@@ -10091,7 +10754,7 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "2"
@@ -10171,7 +10834,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "2"
@@ -10193,7 +10856,7 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "0"
@@ -10229,7 +10892,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "npc1_dialogue",
                 "=",
                 "0"
@@ -10288,7 +10951,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "Animation"
               ]
             },
@@ -10297,7 +10960,7 @@
                 "value": "ChangeSprite"
               },
               "parameters": [
-                "Npc1",
+                "Man1",
                 "=",
                 "0"
               ]
@@ -11818,7 +12481,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

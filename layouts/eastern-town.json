@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.967864077869709,
+    "zoomFactor": 1.3389693172846218,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -50,31 +50,10 @@
       "persistentUuid": "cf2109f0-f5f4-413b-9fec-18e7036c6e97",
       "width": 0,
       "x": 449,
-      "y": 187,
+      "y": 133,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 67,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Construction1_Tile",
-      "persistentUuid": "e6502257-e10c-43e6-ba07-ff933f6c2c25",
-      "width": 75,
-      "x": 468,
-      "y": 212,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":5,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[307,248,248,248,307],[248,254,254,254,248],[248,254,254,254,248],[248,254,254,254,248],[307,248,248,248,307]]}]}"
-        }
-      ],
       "initialVariables": []
     },
     {
@@ -108,8 +87,8 @@
       "name": "Brick",
       "persistentUuid": "1fa91aff-8eeb-41d2-9233-3d18f54e4eb3",
       "width": 16,
-      "x": 472,
-      "y": 447,
+      "x": 468,
+      "y": 370,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,9 +121,9 @@
       "name": "Brick",
       "persistentUuid": "17b7dc40-d919-4b7f-a864-da03175c9423",
       "width": 16,
-      "x": 423,
-      "y": 403,
-      "zOrder": 26,
+      "x": 420,
+      "y": 381,
+      "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -362,8 +341,8 @@
       "name": "Brick",
       "persistentUuid": "984fd899-c33a-4f72-8435-94a2d058a484",
       "width": 16,
-      "x": 513,
-      "y": 412,
+      "x": 508,
+      "y": 388,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -547,32 +526,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Construction2_Tile",
-      "persistentUuid": "cdcc2d7e-3147-43ae-8d87-eb81c209ded2",
-      "width": 0,
-      "x": 924,
-      "y": 385,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":5,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[307,248,248,248,307],[248,254,254,254,248],[248,254,254,254,248],[307,248,248,248,307]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "Construct_2",
       "persistentUuid": "3692083b-7d6e-4840-813c-f56f5079ae76",
       "width": 0,
       "x": 905,
-      "y": 351,
+      "y": 301,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -619,33 +577,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Construction3_Tile",
-      "persistentUuid": "d9164785-304b-4ecb-9d06-c9ac89c081a8",
-      "width": 0,
-      "x": 633,
-      "y": 126,
-      "zOrder": 53,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":5,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[307,248,248,248,307],[248,254,254,254,248],[307,248,248,248,307]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "Construct_3",
       "persistentUuid": "f3a45fb6-b5ba-45ef-8086-fd47b5a25b7e",
       "width": 0,
       "x": 615,
-      "y": 96,
-      "zOrder": 54,
+      "y": 45,
+      "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -825,6 +762,482 @@
       "x": 1065,
       "y": 71,
       "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Destroyed_House",
+      "persistentUuid": "0feeccc9-9a26-4abb-b97d-1505aaaf9a66",
+      "width": 116,
+      "x": 614,
+      "y": 52,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 159,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Destroyed_House3",
+      "persistentUuid": "b6c9ac8f-e4ba-4bcd-aeb0-acda9aeeb191",
+      "width": 159,
+      "x": 424,
+      "y": 144,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 147,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Destroyed_House5",
+      "persistentUuid": "3b285673-27d0-4d39-a0fe-73c853aeb705",
+      "width": 147,
+      "x": 886,
+      "y": 303,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2.960526315789473,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "dae2d671-5592-4ac0-9201-188262df0e55",
+      "width": 75,
+      "x": 75,
+      "y": 400,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "93a6d2f2-06ad-4e1e-9d8e-0e1136002b24",
+      "width": 75,
+      "x": 165,
+      "y": 400,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "4e55b5a0-4a90-4431-9e0a-f95d207d12f8",
+      "width": 75,
+      "x": 345,
+      "y": 400,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "eaeab2c9-dc13-47c1-9b81-6339a9ffbe64",
+      "width": 75,
+      "x": 255,
+      "y": 400,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "7ac18594-efd8-45e7-a7ad-383c4a23ed87",
+      "width": 75,
+      "x": 168,
+      "y": 450,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "cda10715-a0e7-461d-be13-2821590e949f",
+      "width": 75,
+      "x": 258,
+      "y": 450,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "f1f33cbd-0ff6-4bc1-aace-6c2308b7f734",
+      "width": 75,
+      "x": 348,
+      "y": 450,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "304db997-6bb0-48e7-be75-11d40462d5b7",
+      "width": 75,
+      "x": 75,
+      "y": 500,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "c5269c6c-92b2-44e4-970d-9b4c278a75d8",
+      "width": 75,
+      "x": 165,
+      "y": 500,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "627bfd47-bded-4804-93a2-69f721a71229",
+      "width": 75,
+      "x": 255,
+      "y": 500,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "54be8834-31ed-4614-a58b-f142e534e33e",
+      "width": 75,
+      "x": 345,
+      "y": 500,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "3cf4f48e-482c-4c5c-b8cb-53a21f0c7fe8",
+      "width": 75,
+      "x": 75,
+      "y": 550,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "9efd8f93-9e88-4cc3-b9c5-3a18460a9f71",
+      "width": 75,
+      "x": 165,
+      "y": 550,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "354d4262-fd34-4dbc-a8f1-c3f30e787757",
+      "width": 75,
+      "x": 255,
+      "y": 550,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "b010a781-5c59-49b5-9467-a75f731a5892",
+      "width": 75,
+      "x": 345,
+      "y": 550,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "9835d2b1-da45-4e88-b1b3-17db92d36f83",
+      "width": 75,
+      "x": 75,
+      "y": 600,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "44605530-603c-49a0-8bd8-4ccf399e004f",
+      "width": 75,
+      "x": 165,
+      "y": 600,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "4767a75a-a59f-4935-9e8d-e28efc961a06",
+      "width": 75,
+      "x": 255,
+      "y": 600,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "15e48c66-ecd2-4eca-bcd0-00a61dda0ec1",
+      "width": 75,
+      "x": 345,
+      "y": 600,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "102f186e-cc77-4e74-88bc-514e349fd9db",
+      "width": 75,
+      "x": 435,
+      "y": 400,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "f3723c19-f1e9-4ddd-bfdf-2bfb627f195e",
+      "width": 75,
+      "x": 438,
+      "y": 450,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "b7f67e45-d063-4af0-b1ca-e610c74f7fb5",
+      "width": 75,
+      "x": 435,
+      "y": 500,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "fe70ad70-632e-4b15-819f-c0044c147113",
+      "width": 75,
+      "x": 435,
+      "y": 550,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "6fdf8d7b-f5f6-4afe-973c-0ba843f9a8ba",
+      "width": 75,
+      "x": 435,
+      "y": 600,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medical_Tent",
+      "persistentUuid": "b4c42bde-9294-4eca-9341-be408047414b",
+      "width": 75,
+      "x": 75,
+      "y": 450,
+      "zOrder": 81,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3546,6 +3959,187 @@
         "characterSize": 40,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Destroyed_House",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Destroyed_house",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Destroyed_house.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 283,
+                        "y": 100
+                      },
+                      {
+                        "x": 747,
+                        "y": 100
+                      },
+                      {
+                        "x": 747,
+                        "y": 987
+                      },
+                      {
+                        "x": 283,
+                        "y": 987
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Destroyed_House3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "destroyed_house_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 256,
+                        "y": 39
+                      },
+                      {
+                        "x": 802,
+                        "y": 39
+                      },
+                      {
+                        "x": 802,
+                        "y": 951
+                      },
+                      {
+                        "x": 256,
+                        "y": 951
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Destroyed_House5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "destroyed_house_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 299,
+                        "y": 95
+                      },
+                      {
+                        "x": 745,
+                        "y": 95
+                      },
+                      {
+                        "x": 745,
+                        "y": 916
+                      },
+                      {
+                        "x": 299,
+                        "y": 916
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3625,6 +4219,15 @@
       {
         "folderName": "Construction",
         "children": [
+          {
+            "objectName": "Destroyed_House"
+          },
+          {
+            "objectName": "Destroyed_House3"
+          },
+          {
+            "objectName": "Destroyed_House5"
+          },
           {
             "objectName": "Construct1"
           },
@@ -4725,6 +5328,73 @@
         "textG": 0,
         "textR": 0
       },
+      "comment": "Birds Eye view"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "g"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "1.25",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "g"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.5",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
       "comment": "NPC setup"
     },
     {
@@ -5481,35 +6151,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Construction1_Tile",
-            "RpgUrbanMap16x16",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Player",
-            "Construction1_Tile",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "NumberVariable"
           },
           "parameters": [
@@ -5565,14 +6206,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Construct1"
-          ]
         }
       ],
       "actions": [
@@ -5583,35 +6216,6 @@
           "parameters": [
             "Player",
             "Construct1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Construction2_Tile",
-            "RpgUrbanMap16x16",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Player",
-            "Construction2_Tile",
             ""
           ]
         }
@@ -5677,14 +6281,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Construct1"
-          ]
         }
       ],
       "actions": [
@@ -5695,35 +6291,6 @@
           "parameters": [
             "Player",
             "Construct2",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Construction3_Tile",
-            "RpgUrbanMap16x16",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Player",
-            "Construction3_Tile",
             ""
           ]
         }
@@ -5788,14 +6355,6 @@
             "RpgUrbanMap16x16",
             "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Construct3"
           ]
         }
       ],
@@ -5873,7 +6432,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Construction1_Tile",
+            "Destroyed_House3",
             ""
           ]
         },
@@ -6007,7 +6566,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Construction2_Tile",
+            "Destroyed_House5",
             ""
           ]
         },
@@ -6141,7 +6700,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Construction3_Tile",
+            "Destroyed_House",
             ""
           ]
         },
