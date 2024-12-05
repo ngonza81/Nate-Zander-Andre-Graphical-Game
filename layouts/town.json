@@ -8613,7 +8613,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "My foot is injured from the bombing!\nCould you please gimme 5 medkits?\nShukran!",
+      "string": "My foot is injured from the bombing!\nCould you please gimme 2 medkits?\nShukran!",
       "font": "",
       "textAlignment": "center",
       "characterSize": 15,
@@ -8636,7 +8636,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "My foot is injured from the bombing!\nCould you please gimme 5 medkits?\nShukran!",
+        "text": "My foot is injured from the bombing!\nCould you please gimme 2 medkits?\nShukran!",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -10319,6 +10319,46 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Man1",
+            "20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Injured",
+            "20",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Dialogue\""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -10446,34 +10486,6 @@
                 ""
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "Man1",
-            "20",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Dialogue\""
           ]
         }
       ]
@@ -11399,203 +11411,21 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Injured Dialogue Set Up"
+      "comment": "Injured: Not Enough"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": true,
-            "value": "Distance"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "Player",
-            "Injured",
-            "20",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "Man1",
-            "npc1_dialogue",
+            "Injured_Quest",
             "=",
             "0"
           ]
         },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "F_Base_Layer"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "Injured",
-            "20",
-            ""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Injured_Quest",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Injured_Quest",
-                    "=",
-                    "2"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "F",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "F_Base_Layer",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "Injured",
-            "20",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Dialogue\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "LayerVisible"
-          },
-          "parameters": [
-            "",
-            "\"Dialogue\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "F"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "F_Base_Layer"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Injured Dialogue"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
         {
           "type": {
             "value": "NumberVariable"
@@ -11657,15 +11487,6 @@
             },
             {
               "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -11690,11 +11511,20 @@
             },
             {
               "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\""
+              ]
+            },
+            {
+              "type": {
                 "value": "UnPauseTimer"
               },
               "parameters": [
                 "",
-                "\"timer\""
+                "\"timer2\""
               ]
             },
             {
@@ -11703,7 +11533,7 @@
               },
               "parameters": [
                 "",
-                "\"timer\""
+                "\"timer2\""
               ]
             },
             {
@@ -11713,6 +11543,16 @@
               "parameters": [
                 "Injured",
                 "injured_dialogue",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Injured_Quest",
                 "=",
                 "1"
               ]
@@ -11730,7 +11570,25 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Injured_Quest",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -11740,7 +11598,7 @@
               },
               "parameters": [
                 "",
-                "\"timer\"",
+                "\"timer2\"",
                 ">",
                 ".5"
               ]
@@ -11773,7 +11631,7 @@
               },
               "parameters": [
                 "",
-                "\"timer\""
+                "\"timer2\""
               ]
             },
             {
@@ -11843,7 +11701,7 @@
               },
               "parameters": [
                 "",
-                "\"timer\"",
+                "\"timer2\"",
                 ">",
                 ".5"
               ]
@@ -11901,7 +11759,7 @@
               },
               "parameters": [
                 "",
-                "\"timer\"",
+                "\"timer2\"",
                 ">",
                 ".5"
               ]
@@ -11953,7 +11811,7 @@
               },
               "parameters": [
                 "",
-                "\"timer\""
+                "\"timer2\""
               ]
             },
             {
@@ -11962,7 +11820,7 @@
               },
               "parameters": [
                 "",
-                "\"timer\""
+                "\"timer2\""
               ]
             },
             {
