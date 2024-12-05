@@ -5861,7 +5861,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite4",
+      "name": "Man2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6247,9 +6247,6 @@
             "objectName": "NewSprite5"
           },
           {
-            "objectName": "NewSprite4"
-          },
-          {
             "objectName": "NewSprite3"
           },
           {
@@ -6260,6 +6257,9 @@
           },
           {
             "objectName": "Man1"
+          },
+          {
+            "objectName": "Man2"
           },
           {
             "objectName": "Player"

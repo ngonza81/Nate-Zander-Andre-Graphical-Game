@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8416428125374043,
+    "zoomFactor": 1.0973679695630763,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1400,40 +1400,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "Medikit",
-      "persistentUuid": "4c1c11f1-6b5e-4d19-9639-f3d25c9d9070",
-      "width": 16,
-      "x": 299,
-      "y": 618,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Medikit",
-      "persistentUuid": "a1ba0555-3e8e-46d3-bbfa-2424a06ebc3e",
-      "width": 16,
-      "x": 1017,
-      "y": 551,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Medikit",
       "persistentUuid": "2c081f42-2d8f-4c27-b2d7-341e13d04071",
       "width": 16,
       "x": 872,
@@ -2429,6 +2395,23 @@
       "x": 137,
       "y": 160,
       "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 34,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Man2",
+      "persistentUuid": "06ffb0c1-05ef-420b-8403-55b83f59d631",
+      "width": 36,
+      "x": 278,
+      "y": 479,
+      "zOrder": 92,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8576,6 +8559,174 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC2_Dia1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Excuse me please!\n(Press f to continue)",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Excuse me please!\n(Press f to continue)",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC2_Dia2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "My foot is injured from the bombing!\nCould you please gimme 5 medkits?\nShukran!",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "My foot is injured from the bombing!\nCould you please gimme 5 medkits?\nShukran!",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC2_Dia3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Yes, this will do!\n(press f to continue)",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Yes, this will do!\n(press f to continue)",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC2_Dia4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Shukran again my friend!\nYou are a hero!",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Shukran again my friend!\nYou are a hero!",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -8653,6 +8804,18 @@
           },
           {
             "objectName": "NPC1_Dia4"
+          },
+          {
+            "objectName": "NPC2_Dia1"
+          },
+          {
+            "objectName": "NPC2_Dia2"
+          },
+          {
+            "objectName": "NPC2_Dia3"
+          },
+          {
+            "objectName": "NPC2_Dia4"
           }
         ]
       },
