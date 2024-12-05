@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 219,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -65,7 +65,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_black space.png",
         "kind": "image",
         "metadata": "",
@@ -89,7 +88,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Purple Button With Stone Frame_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -102,7 +100,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Purple Button With Stone Frame_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -115,7 +112,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Purple Button With Stone Frame_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -139,7 +135,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tilemap_packed7.png",
         "kind": "image",
         "metadata": "",
@@ -152,7 +147,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Down_1.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Down_1.png\",\"extension\":\".png\"}",
@@ -165,7 +159,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Down_2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Down_2.png\",\"extension\":\".png\"}",
@@ -178,7 +171,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Down_3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Down_3.png\",\"extension\":\".png\"}",
@@ -191,7 +183,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Left_1.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Left_1.png\",\"extension\":\".png\"}",
@@ -204,7 +195,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Left_2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Left_2.png\",\"extension\":\".png\"}",
@@ -217,7 +207,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Left_3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Left_3.png\",\"extension\":\".png\"}",
@@ -230,7 +219,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Right_1.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Right_1.png\",\"extension\":\".png\"}",
@@ -243,7 +231,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Right_2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Right_2.png\",\"extension\":\".png\"}",
@@ -256,7 +243,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Right_3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Right_3.png\",\"extension\":\".png\"}",
@@ -269,7 +255,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Up_1.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Up_1.png\",\"extension\":\".png\"}",
@@ -282,7 +267,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Up_2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Up_2.png\",\"extension\":\".png\"}",
@@ -295,7 +279,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Generic Character 1_Up_3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Generic Character 1_Up_3.png\",\"extension\":\".png\"}",
@@ -308,7 +291,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Down.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -317,7 +299,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Left.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -326,7 +307,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Right.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -335,7 +315,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Up.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -344,7 +323,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Down2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -353,7 +331,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Down3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -362,7 +339,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Down4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -371,7 +347,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Down5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -380,7 +355,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Down6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -389,7 +363,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Down_1.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Male Character 8_Walking Down_1.png\",\"extension\":\".png\"}",
@@ -402,7 +375,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Down_2.png",
         "kind": "image",
         "metadata": "",
@@ -415,7 +387,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Down_3.png",
         "kind": "image",
         "metadata": "",
@@ -428,7 +399,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Left_1.png",
         "kind": "image",
         "metadata": "",
@@ -441,7 +411,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Left_2.png",
         "kind": "image",
         "metadata": "",
@@ -454,7 +423,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Left_3.png",
         "kind": "image",
         "metadata": "",
@@ -467,7 +435,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Right_1.png",
         "kind": "image",
         "metadata": "",
@@ -480,7 +447,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Right_2.png",
         "kind": "image",
         "metadata": "",
@@ -493,7 +459,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Right_3.png",
         "kind": "image",
         "metadata": "",
@@ -506,7 +471,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Up_1.png",
         "kind": "image",
         "metadata": "",
@@ -519,7 +483,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Up_2.png",
         "kind": "image",
         "metadata": "",
@@ -532,7 +495,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 8_Walking Up_3.png",
         "kind": "image",
         "metadata": "",
@@ -545,7 +507,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Menu.png",
         "kind": "image",
         "metadata": "",
@@ -558,7 +519,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New image.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -567,7 +527,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New image2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -587,7 +546,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Brick.png",
         "kind": "image",
         "metadata": "",
@@ -600,7 +558,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "building.png",
         "kind": "image",
         "metadata": "",
@@ -609,7 +566,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_A.png",
         "kind": "image",
         "metadata": "",
@@ -622,7 +578,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_B.png",
         "kind": "image",
         "metadata": "",
@@ -635,7 +590,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_C.png",
         "kind": "image",
         "metadata": "",
@@ -648,7 +602,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_D.png",
         "kind": "image",
         "metadata": "",
@@ -661,7 +614,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_E.png",
         "kind": "image",
         "metadata": "",
@@ -674,7 +626,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_F.png",
         "kind": "image",
         "metadata": "",
@@ -687,7 +638,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_G.png",
         "kind": "image",
         "metadata": "",
@@ -700,7 +650,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_H.png",
         "kind": "image",
         "metadata": "",
@@ -713,7 +662,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_I.png",
         "kind": "image",
         "metadata": "",
@@ -726,7 +674,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_J.png",
         "kind": "image",
         "metadata": "",
@@ -739,7 +686,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_K.png",
         "kind": "image",
         "metadata": "",
@@ -752,7 +698,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_L.png",
         "kind": "image",
         "metadata": "",
@@ -765,7 +710,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_M.png",
         "kind": "image",
         "metadata": "",
@@ -778,7 +722,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_N.png",
         "kind": "image",
         "metadata": "",
@@ -791,7 +734,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_O.png",
         "kind": "image",
         "metadata": "",
@@ -804,7 +746,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_P.png",
         "kind": "image",
         "metadata": "",
@@ -817,7 +758,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_Q.png",
         "kind": "image",
         "metadata": "",
@@ -830,7 +770,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_R.png",
         "kind": "image",
         "metadata": "",
@@ -843,7 +782,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_S.png",
         "kind": "image",
         "metadata": "",
@@ -856,7 +794,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_T.png",
         "kind": "image",
         "metadata": "",
@@ -869,7 +806,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_U.png",
         "kind": "image",
         "metadata": "",
@@ -882,7 +818,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_V.png",
         "kind": "image",
         "metadata": "",
@@ -895,7 +830,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_W.png",
         "kind": "image",
         "metadata": "",
@@ -908,7 +842,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_X.png",
         "kind": "image",
         "metadata": "",
@@ -921,7 +854,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_Y.png",
         "kind": "image",
         "metadata": "",
@@ -934,7 +866,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_Z.png",
         "kind": "image",
         "metadata": "",
@@ -958,7 +889,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New image3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -967,7 +897,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
@@ -976,7 +905,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "brick.png",
         "kind": "image",
         "metadata": "",
@@ -985,7 +913,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Down.png",
         "kind": "image",
         "metadata": "",
@@ -998,7 +925,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Left.png",
         "kind": "image",
         "metadata": "",
@@ -1011,7 +937,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Right.png",
         "kind": "image",
         "metadata": "",
@@ -1024,7 +949,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Up.png",
         "kind": "image",
         "metadata": "",
@@ -1037,7 +961,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "house1.png",
         "kind": "image",
         "metadata": "",
@@ -1046,7 +969,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "house2.png",
         "kind": "image",
         "metadata": "",
@@ -1055,7 +977,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "house3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"house3.png\",\"extension\":\".png\"}",
@@ -1134,7 +1055,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Camping Tent_No Shadow.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Camping Tent_No Shadow.png\",\"extension\":\".png\"}",
@@ -1147,7 +1067,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Camping Tent_Shadow.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Camping Tent_Shadow.png\",\"extension\":\".png\"}",
@@ -1160,7 +1079,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medikit2.png",
         "kind": "image",
         "metadata": "",
@@ -1173,7 +1091,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Down_1.png",
         "kind": "image",
         "metadata": "",
@@ -1186,7 +1103,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Down_2.png",
         "kind": "image",
         "metadata": "",
@@ -1199,7 +1115,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Down_3.png",
         "kind": "image",
         "metadata": "",
@@ -1212,7 +1127,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Left_1.png",
         "kind": "image",
         "metadata": "",
@@ -1225,7 +1139,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Left_2.png",
         "kind": "image",
         "metadata": "",
@@ -1238,7 +1151,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Left_3.png",
         "kind": "image",
         "metadata": "",
@@ -1251,7 +1163,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Right_1.png",
         "kind": "image",
         "metadata": "",
@@ -1264,7 +1175,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Right_2.png",
         "kind": "image",
         "metadata": "",
@@ -1277,7 +1187,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Right_3.png",
         "kind": "image",
         "metadata": "",
@@ -1290,7 +1199,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Up_1.png",
         "kind": "image",
         "metadata": "",
@@ -1303,7 +1211,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Up_2.png",
         "kind": "image",
         "metadata": "",
@@ -1316,7 +1223,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 1_Walking Up_3.png",
         "kind": "image",
         "metadata": "",
@@ -1329,7 +1235,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Walking Down.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walking Down.png\"}",
@@ -1338,7 +1243,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Walking Down2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1347,7 +1251,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded Yellow Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1360,7 +1263,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Wood Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -1373,7 +1275,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded Green Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1386,7 +1287,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
@@ -1423,7 +1323,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Down_1.png",
         "kind": "image",
         "metadata": "",
@@ -1436,7 +1335,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Down_2.png",
         "kind": "image",
         "metadata": "",
@@ -1449,7 +1347,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Down_3.png",
         "kind": "image",
         "metadata": "",
@@ -1462,7 +1359,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Left_1.png",
         "kind": "image",
         "metadata": "",
@@ -1475,7 +1371,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Left_2.png",
         "kind": "image",
         "metadata": "",
@@ -1488,7 +1383,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Left_3.png",
         "kind": "image",
         "metadata": "",
@@ -1501,7 +1395,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Right_1.png",
         "kind": "image",
         "metadata": "",
@@ -1514,7 +1407,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Right_2.png",
         "kind": "image",
         "metadata": "",
@@ -1527,7 +1419,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Right_3.png",
         "kind": "image",
         "metadata": "",
@@ -1540,7 +1431,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Up_1.png",
         "kind": "image",
         "metadata": "",
@@ -1553,7 +1443,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Up_2.png",
         "kind": "image",
         "metadata": "",
@@ -1566,7 +1455,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Male Character 6_Walking Up_3.png",
         "kind": "image",
         "metadata": "",
@@ -1579,7 +1467,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Destroyed_house.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Destroyed_house.png\",\"extension\":\".png\"}",
@@ -1588,7 +1475,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "destroyed_house2.png",
         "kind": "image",
         "metadata": "",
@@ -1597,7 +1483,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "destroyed_house_3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"destroyed_house_3.png\",\"extension\":\".png\"}",
@@ -1606,7 +1491,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "destroyed_house_4.png",
         "kind": "image",
         "metadata": "",
@@ -1615,7 +1499,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "destroyed_house_5.png",
         "kind": "image",
         "metadata": "",
@@ -1624,7 +1507,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Npc1.png",
         "kind": "image",
         "metadata": "",
@@ -1633,7 +1515,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Npc2.png",
         "kind": "image",
         "metadata": "",
@@ -1642,7 +1523,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "NPC3.png",
         "kind": "image",
         "metadata": "",
@@ -1651,7 +1531,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "man.png",
         "kind": "image",
         "metadata": "",
@@ -1660,7 +1539,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "man2.png",
         "kind": "image",
         "metadata": "",
@@ -1669,7 +1547,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "woman.png",
         "kind": "image",
         "metadata": "",
@@ -1678,7 +1555,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "watermelon (symbol of resistance).png",
         "kind": "image",
         "metadata": "",
@@ -1687,7 +1563,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "olive tree.png",
         "kind": "image",
         "metadata": "",
@@ -1696,7 +1571,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Graveyard Tile Dirt Corner Left.png",
         "kind": "image",
         "metadata": "",
@@ -1709,7 +1583,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Graveyard Tile Dirt Corner Right.png",
         "kind": "image",
         "metadata": "",
@@ -1720,6 +1593,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/Platform/4156f6abc374da5c97428471c1ff70fbd2b8b6f0b3608220c600b8a38b634075_Graveyard Tile Dirt Corner Right.png",
           "name": "Graveyard Tile Dirt Corner Right.png"
         }
+      },
+      {
+        "file": "Injured1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Injured1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Medic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medic.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3488,7 +3377,7 @@
       "behaviors": [],
       "content": {
         "InitialValue": 0,
-        "MaxValue": 1,
+        "MaxValue": 3,
         "BarTopPadding": 8,
         "BarRightPadding": 10,
         "BarBottomPadding": 8,
@@ -3531,7 +3420,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "0 / 1",
+          "string": "0 / 3",
           "font": "",
           "textAlignment": "center",
           "characterSize": 16,
@@ -3554,7 +3443,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "0 / 1",
+            "text": "0 / 3",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -5623,6 +5512,11 @@
           "name": "npc1_dialogue",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "injured_dialogue",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -6309,6 +6203,11 @@
     },
     {
       "name": "NPC1_Quest",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Injured_Quest",
       "type": "number",
       "value": 0
     },

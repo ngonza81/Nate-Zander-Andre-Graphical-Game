@@ -1882,8 +1882,8 @@
       "name": "Medikit",
       "persistentUuid": "a59fa747-c106-48eb-b287-76c65faa7cfe",
       "width": 16,
-      "x": 510,
-      "y": 422,
+      "x": 541,
+      "y": 505,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -1902,6 +1902,23 @@
       "x": 48,
       "y": 552,
       "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 36,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Medic",
+      "persistentUuid": "967703ca-91a7-4597-b0c8-6ba3d37d7e92",
+      "width": 36,
+      "x": 281,
+      "y": 377,
+      "zOrder": 91,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4804,6 +4821,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Medic",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Medic.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 285,
+                        "y": 83
+                      },
+                      {
+                        "x": 785,
+                        "y": 83
+                      },
+                      {
+                        "x": 785,
+                        "y": 904
+                      },
+                      {
+                        "x": 285,
+                        "y": 904
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4929,6 +5006,9 @@
             "objectName": "Construct_3"
           }
         ]
+      },
+      {
+        "objectName": "Medic"
       }
     ]
   },
