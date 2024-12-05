@@ -9457,7 +9457,7 @@
               "parameters": [
                 "Player",
                 "Injured",
-                "10",
+                "20",
                 ""
               ]
             }
@@ -9743,7 +9743,7 @@
               "parameters": [
                 "People_Helped_Progress",
                 "+",
-                "1"
+                "3"
               ]
             },
             {
@@ -10397,14 +10397,6 @@
             "=",
             "0"
           ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "F_Base_Layer"
-          ]
         }
       ]
     },
@@ -10556,18 +10548,10 @@
             "value": "SetNumberObjectVariable"
           },
           "parameters": [
-            "Man1",
-            "npc1_dialogue",
+            "Injured",
+            "injured_dialogue",
             "=",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "F_Base_Layer"
           ]
         }
       ]

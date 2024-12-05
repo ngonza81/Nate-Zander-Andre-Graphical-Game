@@ -6204,6 +6204,11 @@
       "value": 0
     },
     {
+      "name": "Medic_quest",
+      "type": "number",
+      "value": 0
+    },
+    {
       "name": "East_Construct1",
       "type": "boolean",
       "value": false

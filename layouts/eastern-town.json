@@ -18,13 +18,13 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.7458023987469085,
+    "zoomFactor": 1.026942587498183,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Medic_quest",
+      "name": "Med",
       "type": "number",
       "value": 0
     }
@@ -6958,6 +6958,14 @@
             "",
             "\"Dialogue\""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "F_Base_Layer"
+          ]
         }
       ]
     },
@@ -7031,14 +7039,6 @@
             "medic_var",
             "=",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "F_Base_Layer"
           ]
         }
       ]
