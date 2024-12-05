@@ -39,7 +39,7 @@
       "name": "credit_text",
       "persistentUuid": "6e03b072-b23d-4458-9dc4-6b3e2d381593",
       "width": 0,
-      "x": 537,
+      "x": 527,
       "y": 251,
       "zOrder": 1,
       "numberProperties": [],
@@ -140,8 +140,8 @@
       "name": "placeholder_text",
       "persistentUuid": "41c06015-25c9-42c6-b4eb-d1059886261d",
       "width": 0,
-      "x": 538,
-      "y": 250,
+      "x": 365,
+      "y": 272,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -223,9 +223,9 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Enjoy our game!",
+      "string": "The city is in shambles after an attack.\n\nCan you be the one to restore this community?",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 25,
       "color": {
         "b": 255,
@@ -246,9 +246,9 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Enjoy our game!",
+        "text": "The city is in shambles after an attack.\n\nCan you be the one to restore this community?",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "255;255;255"
@@ -703,7 +703,7 @@
             "",
             "\"scenetimer\"",
             ">=",
-            "6"
+            "8"
           ]
         }
       ],
